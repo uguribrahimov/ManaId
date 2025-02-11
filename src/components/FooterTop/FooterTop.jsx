@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import styles from "./FooterTop.module.css";  
-import footerImage from "../../../public/assets/Footer1.png";
+import footerImage from "../../../public/assets/Footer1.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const FooterTop = () => {

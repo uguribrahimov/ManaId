@@ -6,7 +6,7 @@ import HomePage4 from '../components/HomePage4/HomePage4'
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <HomePage1/>
       <HomePage2/>
       <HomePage3/>

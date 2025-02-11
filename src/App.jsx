@@ -21,9 +21,9 @@ const App = () => {
 
   return ( <Provider store={store}> 
     <Router>
-      <div className="d-flex flex-column min-vh-100">
+      <div className="">
         <Headers />
-        <main className="flex-grow-1">
+        <main className="">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

@@ -8,7 +8,7 @@ const data = {
     description: "We can be your storyteller in determining the ambience of your home that makes you comfortable at home.",
     getStartedButtonText: "Get Started",
     manaIntroductionButtonText: "Mana Introduction",
-    imageURL: "/assets/imageHomep.png",
+    imageURL: "/assets/imageHomep.jpg",
     mapAreas: [
       {
         coords: "100,100,50",
@@ -35,12 +35,12 @@ const data = {
     description: "Do you want your home or office to look the way you want? We have many architects to make that happen.",
     buttonText: "More company",
     images: [
-      "/assets/Image.homepage2.png",
-      "/assets/imgHomePage2.png",
-      "/assets/imgHomePage2-3.png",
-      "/assets/imgHomePage2-4.png",
-      "/assets/imgHomePage2-5.png",
-      "/assets/imgHomePage2-6.png"
+      "/assets/Image.homepage2.jpg",
+      "/assets/imgHomePage2.jpg",
+      "/assets/imgHomePage2-3.jpg",
+      "/assets/imgHomePage2-4.jpg",
+      "/assets/imgHomePage2-5.jpg",
+      "/assets/imgHomePage2-6.jpg"
     ],
     cards: [
       {
@@ -65,30 +65,30 @@ const data = {
       id: 1,
       title: "Discount Every Month",
       description: "Get discount voucher every month",
-      image: "/assets/imgHomepage3-1.png"
+      image: "/assets/imgHomepage3-1.jpg"
     },
     {
       id: 2,
       title: "24/7 Consultation",
       description: "Free consultation with specialist",
-      image: "/assets/imgHomepage3-3.png"
+      image: "/assets/imgHomepage3-3.jpg"
     },
     {
       id: 3,
       title: "Free Shipping",
       description: "Multi-purpose Development",
-      image: "/assets/imgHomepage3-2.png"
+      image: "/assets/imgHomepage3-2.jpg"
     }
   ],
   furnitureData: [
-    { id: 1, category: "Sofa", name: "Luxury Sofa", price: "$500", image: "/assets/HomePage5-1.png" },
-    { id: 2, category: "Chair", name: "Comfort Chair", price: "$150", image: "/assets/HomPage5-2.png" },
-    { id: 3, category: "Table", name: "Modern Table", price: "$300", image: "/assets/HomPage5-3.png" },
-    { id: 4, category: "Mirror", name: "Wall Mirror", price: "$100", image: "/assets/HomPage5-4.png" },
-    { id: 5, category: "Bedroom", name: "King Bed", price: "$800", image: "/assets/HomPage5-5.png" },
-    { id: 6, category: "Sofa", name: "Classic Sofa", price: "$450", image: "/assets/HomPage5-7.png" },
-    { id: 7, category: "Chair", name: "Office Chair", price: "$200", image: "/assets/HomPage5-8.png" },
-    { id: 8, category: "Table", name: "Dining Table", price: "$400", image: "/assets/HomPage5-9.png" }
+    { id: 1, category: "Sofa", name: "Luxury Sofa", price: "$500", image: "/assets/HomePage5-1.jpg" },
+    { id: 2, category: "Chair", name: "Comfort Chair", price: "$150", image: "/assets/HomPage5-2.jpg" },
+    { id: 3, category: "Table", name: "Modern Table", price: "$300", image: "/assets/HomPage5-3.jpg" },
+    { id: 4, category: "Mirror", name: "Wall Mirror", price: "$100", image: "/assets/HomPage5-4.jpg" },
+    { id: 5, category: "Bedroom", name: "King Bed", price: "$800", image: "/assets/HomPage5-5.jpg" },
+    { id: 6, category: "Sofa", name: "Classic Sofa", price: "$450", image: "/assets/HomPage5-7.jpg" },
+    { id: 7, category: "Chair", name: "Office Chair", price: "$200", image: "/assets/HomPage5-8.jpg" },
+    { id: 8, category: "Table", name: "Dining Table", price: "$400", image: "/assets/HomPage5-9.jpg" }
   ],
   cartDetails: [
     {
@@ -96,7 +96,7 @@ const data = {
       category: "Sofa",
       name: "Luxury Sofa",
       price: "$500",
-      image: "/assets/HomePage5-1.png",
+      image: "/assets/HomePage5-1.jpg",
       description: "Inspired by the majestic architectural forms of visionary architect Santiago Calatrava, this coffee table is a masterpiece of form and function. Zig-zag legs form a kite shaped base in forged iron, which is crowned by a hand carved wood top. Spectacular!",
       dimension: "120x80x40 cm",
       color: "White",
@@ -107,7 +107,7 @@ const data = {
       category: "Chair",
       name: "Comfort Chair",
       price: "$150",
-      image: "/assets/HomPage5-2.png",
+      image: "/assets/HomPage5-2.jpg",
       description: "Inspired by the majestic architectural forms of visionary architect Santiago Calatrava, this coffee table is a masterpiece of form and function. Zig-zag legs form a kite shaped base in forged iron, which is crowned by a hand carved wood top. Spectacular!",
       dimension: "80x40x40 cm",
       color: "Black",
@@ -118,7 +118,7 @@ const data = {
       category: "Table",
       name: "Modern Table",
       price: "$300",
-      image: "/assets/HomPage5-3.png",
+      image: "/assets/HomPage5-3.jpg",
       description: "Inspired by the majestic architectural forms of visionary architect Santiago Calatrava, this coffee table is a masterpiece of form and function. Zig-zag legs form a kite shaped base in forged iron, which is crowned by a hand carved wood top. Spectacular!",
       dimension: "120x60x45 cm",
       color: "Brown",
@@ -140,7 +140,7 @@ const data = {
       category: "Bedroom",
       name: "King Bed",
       price: "$800",
-      image: "/assets/HomPage5-5.png",
+      image: "/assets/HomPage5-5.jpg",
       description: "Inspired by the majestic architectural forms of visionary architect Santiago Calatrava, this coffee table is a masterpiece of form and function. Zig-zag legs form a kite shaped base in forged iron, which is crowned by a hand carved wood top. Spectacular!",
       dimension: "200x180x60 cm",
       color: "Gray",
@@ -151,7 +151,7 @@ const data = {
       category: "Sofa",
       name: "Classic Sofa",
       price: "$450",
-      image: "/assets/HomPage5-7.png",
+      image: "/assets/HomPage5-7.jpg",
       description: "Inspired by the majestic architectural forms of visionary architect Santiago Calatrava, this coffee table is a masterpiece of form and function. Zig-zag legs form a kite shaped base in forged iron, which is crowned by a hand carved wood top. Spectacular!",
       dimension: "120x70x40 cm",
       color: "Beige",
@@ -162,7 +162,7 @@ const data = {
       category: "Chair",
       name: "Office Chair",
       price: "$200",
-      image: "/assets/HomPage5-8.png",
+      image: "/assets/HomPage5-8.jpg",
       description: "Inspired by the majestic architectural forms of visionary architect Santiago Calatrava, this coffee table is a masterpiece of form and function. Zig-zag legs form a kite shaped base in forged iron, which is crowned by a hand carved wood top. Spectacular!",
       dimension: "90x60x60 cm",
       color: "Black",
@@ -173,7 +173,7 @@ const data = {
       category: "Table",
       name: "Dining Table",
       price: "$400",
-      image: "/assets/HomPage5-9.png",
+      image: "/assets/HomPage5-9.jpg",
       description: "Inspired by the majestic architectural forms of visionary architect Santiago Calatrava, this coffee table is a masterpiece of form and function. Zig-zag legs form a kite shaped base in forged iron, which is crowned by a hand carved wood top. Spectacular!",
       dimension: "180x90x75 cm",
       color: "Brown",

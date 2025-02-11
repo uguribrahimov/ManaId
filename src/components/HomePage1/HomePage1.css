@@ -2,12 +2,22 @@
     border-top-left-radius: 45% !important;
     border-bottom-left-radius: 45% !important;
   }
-@media screen and (max-width: 768px){
-    .custom-radius{
-        border-radius: 0% !important
+  
+  @media (max-width: 768px) {
+    .custom-radius {
+      border-radius: 0% !important;
     }
-
-}
-    
-    
+  }
+  
+  .md\:w-2\/5 {
+    width: 40%; /* Sol kısım */
+  }
+  
+  .md\:w-3\/5 {
+    width: 60%; /* Sağ kısım */
+  }
+  
+  object-cover {
+    object-fit: cover; /* Resmin düzgün sığması için */
+  }
   
