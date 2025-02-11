@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .aboutContainer {
+    background: url('../../../public//assets/about.png') no-repeat center center/cover; /* Buraya fotoğraf yolunu ekleyin */
+    filter: grayscale(100%); /* Fotoğrafı siyah beyaz yapar */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Siyah arka planın opaklık değeri artırıldı */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;}
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+  

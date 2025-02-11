@@ -1,0 +1,13 @@
+.custom-radius {
+    border-top-left-radius: 45% !important;
+    border-bottom-left-radius: 45% !important;
+  }
+@media screen and (max-width: 768px){
+    .custom-radius{
+        border-radius: 0% !important
+    }
+
+}
+    
+    
+  
