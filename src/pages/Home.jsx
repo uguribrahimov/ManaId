@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <div className="">
       <HomePage1/>
-      <HomePage2/>
       <HomePage3/>
       <HomePage4/>
     

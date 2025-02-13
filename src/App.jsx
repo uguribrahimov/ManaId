@@ -8,6 +8,9 @@ import Contact from './pages/Contact';
 import CartDetails from './components/CardDetails/CardDetails';
 import { Provider } from 'react-redux';
 import store from './Store';
+import Cart from './pages/Cart/Cart';
+import Payment from './pages/Payment/Payment';
+import Membership from './pages/Membership/Membership';
 
 
 
@@ -29,6 +32,9 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/cartDetails/:id" element={<CartDetails addToCart={addToCart} />} />
+            <Route path="/cart" element={<Cart cart={cart} />} />
+            <Route path="/payment" element={<Payment />} />
+            <Route path="/membership" element={<Membership />} />
           </Routes>
         </main>
         <Footer />

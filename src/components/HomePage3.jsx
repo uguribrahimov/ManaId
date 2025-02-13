@@ -36,57 +36,25 @@ const HomePage3 = () => {
       </header>
 
       <div className="w-100">
-        <div className="d-flex gap-3 mb-3">
-          <div className="card bg-white text-white position-relative" style={{ flex: "0 0 60%", borderRadius: "10px", overflow: "hidden", height: "250px", transition: "transform 0.3s ease" }}>
-            <img
-              src={categories[0].image}
-              alt={categories[0].title}
-              className="w-100 h-100"
-              style={{ objectFit: "cover" }}
-            />
-            <div className="position-absolute bottom-0 left-0 right-0 p-3" style={{ background: "rgba(0, 0, 0, 0.5)" }}>
-              <h3 className="h5 fw-bold">{categories[0].title}</h3>
-              <p className="mb-0">{categories[0].description}</p>
+        <div className="d-flex flex-wrap gap-3 mb-3">
+          {categories.map((category, index) => (
+            <div
+              key={index}
+              className="card bg-white text-white position-relative"
+              style={{ flex: "1 1 48%", borderRadius: "10px", overflow: "hidden", height: "250px", transition: "transform 0.3s ease" }}
+            >
+              <img
+                src={category.image}
+                alt={category.title}
+                className="w-100 h-100"
+                style={{ objectFit: "cover" }}
+              />
+              <div className="position-absolute bottom-0 left-0 right-0 p-3" style={{ background: "rgba(0, 0, 0, 0.5)" }}>
+                <h3 className="h5 fw-bold">{category.title}</h3>
+                <p className="mb-0 d-none d-md-block">{category.description}</p>
+              </div>
             </div>
-          </div>
-          <div className="card bg-white text-white position-relative" style={{ flex: "0 0 40%", borderRadius: "10px", overflow: "hidden", height: "250px", transition: "transform 0.3s ease" }}>
-            <img
-              src={categories[1].image}
-              alt={categories[1].title}
-              className="w-100 h-100"
-              style={{ objectFit: "cover" }}
-            />
-            <div className="position-absolute bottom-0 left-0 right-0 p-3" style={{ background: "rgba(0, 0, 0, 0.5)" }}>
-              <h3 className="h5 fw-bold">{categories[1].title}</h3>
-              <p className="mb-0">{categories[1].description}</p>
-            </div>
-          </div>
-        </div>
-        <div className="d-flex gap-3">
-          <div className="card bg-white text-white position-relative" style={{ flex: "0 0 40%", borderRadius: "10px", overflow: "hidden", height: "250px", transition: "transform 0.3s ease" }}>
-            <img
-              src={categories[2].image}
-              alt={categories[2].title}
-              className="w-100 h-100"
-              style={{ objectFit: "cover" }}
-            />
-            <div className="position-absolute bottom-0 left-0 right-0 p-3" style={{ background: "rgba(0, 0, 0, 0.5)" }}>
-              <h3 className="h5 fw-bold">{categories[2].title}</h3>
-              <p className="mb-0">{categories[2].description}</p>
-            </div>
-          </div>
-          <div className="card bg-white text-white position-relative" style={{ flex: "0 0 60%", borderRadius: "10px", overflow: "hidden", height: "250px", transition: "transform 0.3s ease" }}>
-            <img
-              src={categories[3].image}
-              alt={categories[3].title}
-              className="w-100 h-100"
-              style={{ objectFit: "cover" }}
-            />
-            <div className="position-absolute bottom-0 left-0 right-0 p-3" style={{ background: "rgba(0, 0, 0, 0.5)" }}>
-              <h3 className="h5 fw-bold">{categories[3].title}</h3>
-              <p className="mb-0">{categories[3].description}</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>

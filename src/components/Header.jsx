@@ -14,7 +14,7 @@ const Headers = () => {
   return (
     <div className="d-flex align-items-center justify-content-between p-3">
       <div className="position-relative d-flex align-items-center gap-2">
-        <img src="../../src/assets/image.png" alt="Logo Icon" className="img-fluid" style={{ width: "40px", height: "40px" }} />
+        <img src="../../public/assets/image.jpg" alt="Logo Icon" className="img-fluid" style={{ width: "40px", height: "40px" }} />
         <span className="fw-bold text-dark" style={{ fontSize: "1.2rem" }}>Mana.id</span>
       </div>
 

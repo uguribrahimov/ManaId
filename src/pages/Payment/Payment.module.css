@@ -1,0 +1,84 @@
+.paymentContainer {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: 100vh;
+    align-items: flex-start;
+  }
+  
+  .paymentForm {
+    flex: 6;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+  }
+  
+  .paymentForm h2 {
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .flexRow {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .halfWidth {
+    flex: 1;
+  }
+  
+  .paymentSummary {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+  }
+  
+  .paymentSummary h2 {
+    margin-bottom: 20px;
+  }
+  
+  .totalRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .payButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+  
+  .payButton:hover {
+    background-color: #333;
+  }
+  

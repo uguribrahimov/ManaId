@@ -1,17 +1,24 @@
 import React, { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './HomePage1.css';  // CSS dosyasını dahil edin
-import data from "../../../public/data"; // Doğru yolu kontrol edin
+import './HomePage1.css'; 
+import data from "../../data"; 
+import { useNavigate } from "react-router-dom"; // Import useNavigate for redirection
 
 const HomePage1 = () => {
   const [homepageData, setHomepageData] = useState(null);
+  const [clickedArea, setClickedArea] = useState(null);
+  const navigate = useNavigate(); // Initialize useNavigate
 
   useEffect(() => {
     setHomepageData(data.homepage);
   }, []);
 
   const handleAreaClick = (title) => {
-    alert(`Tıkladığınız alan: ${title}`);
+    setClickedArea(clickedArea === title ? null : title);
+  };
+
+  const handleMoreInfoClick = (id) => {
+    navigate(`/cartDetails/${id}`); // Redirect to cartDetails page with the specific ID
   };
 
   if (!homepageData) {
@@ -39,28 +46,33 @@ const HomePage1 = () => {
         </div>
       </div>
       <div className="col-12 col-md-8 d-flex justify-content-center align-items-center position-relative overflow-hidden">
-        <img
-          src={homepageData.imageURL}
-          alt="Furniture Map"
-          useMap="#furniture-map"
-          className="w-100 h-100 object-fit-cover custom-radius"
-        />
-        <map name="furniture-map">
+        <div style={{ position: "relative", width: "100%", height: "100%" }}>
+          <img
+            src={homepageData.imageURL}
+            alt="Furniture Map"
+            className="w-100 h-100 object-cover custom-radius"
+          />
           {homepageData.mapAreas.map((area, index) => (
-            <area
-              key={index}
-              shape="circle"
-              coords={area.coords}
-              href="#"
-              alt={area.alt}
-              onClick={(e) => {
-                e.preventDefault();
-                handleAreaClick(area.title);
-              }}
-              className="position-absolute"
-            />
+            <div key={index}>
+              <div
+                className="dot"
+                style={{
+                  top: `${area.top}%`,
+                  left: `${area.left}%`,
+                }}
+                onClick={() => handleAreaClick(area.title)}
+              />
+              {clickedArea === area.title && (
+                <div className="area-details p-1 bg-white shadow" style={{ top: `${area.top - 20}%`, left: `${area.left + 5}%`, width: "150px" }}>
+                  <img src={area.image} alt={area.title} className="w-100 h-auto mb-1" />
+                  <h5 className="mb-1">{area.title}</h5>
+                  <p className="mb-1">Price: {area.price}</p>
+                  <button className="btn btn-primary" onClick={() => handleMoreInfoClick(area.id)}>More Info</button>
+                </div>
+              )}
+            </div>
           ))}
-        </map>
+        </div>
       </div>
     </div>
   );

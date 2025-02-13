@@ -3,7 +3,7 @@ import { Card, Button, Input } from "antd";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./HomePage4.module.css";
 import { useNavigate } from "react-router-dom";
-import data from "../../../public/data"; // Dosya yolunun doğru olduğundan emin olun
+import data from "../../../src/data"; 
 
 const { Search } = Input;
 

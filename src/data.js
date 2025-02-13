@@ -11,22 +11,22 @@ const data = {
     imageURL: "/assets/imageHomep.jpg",
     mapAreas: [
       {
-        coords: "100,100,50",
-        alt: "Sandalye",
-        title: "Stul",
-        className: "map-area-sandalye"
+        id: 1,
+        title: "Classic Sofa",
+        top: 80,
+        left: 11,
+        image: "/assets/HomPage5-8.jpg",
+        price: "$200",
+        link: "http://localhost:5173/cartDetails/7"
       },
       {
-        coords: "250,150,50",
-        alt: "Masa",
-        title: "Masa",
-        className: "map-area-masa"
-      },
-      {
-        coords: "400,200,50",
-        alt: "Lamba",
-        title: "Lampa",
-        className: "map-area-lampa"
+        id: 2,
+        title: "King Bed",
+        top: 80,
+        left: 56,
+        image: "/assets/HomPage5-3.jpg",
+        price: "$350",
+        link: "http://localhost:5173/cartDetails/3"
       }
     ]
   },
@@ -129,7 +129,7 @@ const data = {
       category: "Mirror",
       name: "Wall Mirror",
       price: "$100",
-      image: "/assets/HomPage5-4.png",
+      image: "/assets/HomPage5-4.jpg",
       description: "Inspired by the majestic architectural forms of visionary architect Santiago Calatrava, this coffee table is a masterpiece of form and function. Zig-zag legs form a kite shaped base in forged iron, which is crowned by a hand carved wood top. Spectacular!",
       dimension: "100x50 cm",
       color: "Silver",
@@ -179,6 +179,76 @@ const data = {
       color: "Brown",
       colors: ["Brown", "White", "Black"]
     }
+  ],
+  membership: [
+    {
+      name: "Free",
+      price: 0,
+      period: "Month",
+      description: "The easiest and quickest way to try mana.id lorem",
+      buttonText: "Sign up free",
+      benefits: [
+        "Benefit 1",
+        "Benefit 2",
+        "Benefit 3",
+        "Benefit 4",
+        "Benefit 5",
+        "Benefit 6",
+        "Benefit 7",
+        "Benefit 8",
+      ],
+    },
+    {
+      name: "Pro",
+      price: 15,
+      period: "Month",
+      description: "More power for small company who need to improve their interiors",
+      buttonText: "Get started",
+      benefits: [
+        "All benefits of Free, and:",
+        "Benefit 1",
+        "Benefit 2",
+        "Benefit 3",
+        "Benefit 4",
+        "Benefit 5",
+        "Benefit 6",
+        "Benefit 7",
+      ],
+    },
+    {
+      name: "Business",
+      price: 25,
+      period: "Month",
+      description: "More power for medium company who need to improve their interiors",
+      buttonText: "Get started",
+      benefits: [
+        "All benefits of Pro, and:",
+        "Benefit 1",
+        "Benefit 2",
+        "Benefit 3",
+        "Benefit 4",
+        "Benefit 5",
+        "Benefit 6",
+        "Benefit 7",
+      ],
+    },
+    {
+      name: "Enterprise",
+      price: 80,
+      period: "Month",
+      description: "More power for big company who need to improve their interiors",
+      buttonText: "Get started",
+      benefits: [
+        "All benefits of Business, and:",
+        "Benefit 1",
+        "Benefit 2",
+        "Benefit 3",
+        "Benefit 4",
+        "Benefit 5",
+        "Benefit 6",
+        "Benefit 7",
+      ],
+    },
   ]
 };
 
