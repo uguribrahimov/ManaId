@@ -1,25 +1,37 @@
+// CartDetails.js
 import React, { useEffect, useState } from "react";
-import { useParams, useNavigate, Link } from "react-router-dom";
-import { Card, Button } from "antd";
-import { useDispatch } from "react-redux"; 
-import { addToCart } from "../../Store"; 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import data from "../../../src/data"; 
+import { useParams, useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../Store/cartSlice";
+import "bootstrap/dist/css/bootstrap.min.css";
+import apiClient from "../../api"; // Axios interceptor'ü içeren API istemcisi
+import AnotherProduct from "../AnotherPruduct/anotherPruduct"; // Yeni componenti import ediyoruz
 
 const CartDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const dispatch = useDispatch(); 
+  const dispatch = useDispatch();
 
   const [product, setProduct] = useState(null);
   const [relatedProducts, setRelatedProducts] = useState([]);
 
   useEffect(() => {
-    const selectedProduct = data.cartDetails.find((item) => item.id === parseInt(id));
-    setProduct(selectedProduct);
+    const fetchProductDetails = async () => {
+      try {
+        const response = await apiClient.get(`/cartDetails/${id}`);
+        setProduct(response);
 
-    const filteredProducts = data.cartDetails.filter((item) => item.id !== parseInt(id)).slice(0, 4);
-    setRelatedProducts(filteredProducts);
+        const relatedResponse = await apiClient.get("/cartDetails");
+        const filteredProducts = relatedResponse
+          .filter((item) => item.id !== parseInt(id))
+          .slice(0, 4);
+        setRelatedProducts(filteredProducts);
+      } catch (error) {
+        console.error("Veri çekme hatası:", error);
+      }
+    };
+
+    fetchProductDetails();
   }, [id]);
 
   const handleAddToCart = (product) => {
@@ -35,7 +47,11 @@ const CartDetails = () => {
     <div className="container py-5">
       <div className="row mb-4">
         <div className="col-md-6 mb-3 mb-md-0">
-          <img src={product.image} alt={product.name} className="img-fluid rounded shadow" />
+          <img
+            src={product.image}
+            alt={product.name}
+            className="img-fluid rounded shadow"
+          />
         </div>
         <div className="col-md-6">
           <h2 className="text-uppercase">{product.name}</h2>
@@ -55,7 +71,12 @@ const CartDetails = () => {
             <h3>Retail</h3>
             <p>{product.price}</p>
           </div>
-          <button className="btn btn-dark w-100" onClick={() => handleAddToCart(product)}>Add to Cart</button>
+          <button
+            className="btn btn-dark w-100"
+            onClick={() => handleAddToCart(product)}
+          >
+            Add to Cart
+          </button>
         </div>
       </div>
 
@@ -64,16 +85,7 @@ const CartDetails = () => {
         <div className="row">
           {relatedProducts.map((item) => (
             <div key={item.id} className="col-md-3 mb-3">
-              <Card cover={<img alt={item.name} src={item.image} />} className="text-center border-0 shadow-sm">
-                <div className="p-3">
-                  <h4 className="mb-1">{item.name}</h4>
-                  <p className="text-danger mb-3">{item.price}</p>
-                  <p className="text-muted mb-2">{item.category}</p>
-                  <Button type="link" className="p-0">
-                    <Link to={`/cartDetails/${item.id}`}>See Details</Link>
-                  </Button>
-                </div>
-              </Card>
+              <AnotherProduct product={item} />
             </div>
           ))}
         </div>

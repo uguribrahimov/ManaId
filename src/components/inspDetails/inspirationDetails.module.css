@@ -1,0 +1,261 @@
+/* Genel Stiller */
+body {
+  font-size: 14px; /* Genel font boyutunu küçült */
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Büyük Fotoğraf */
+.listUnstyled {
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.imageWrapper img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.listItem div {
+  flex: 1;
+}
+
+.listItem h5 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.listItem p {
+  font-size: 12px;
+  margin: 2px 0;
+  color: #555;
+}
+
+.textPrimary {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  min-width: 80px;
+}
+
+
+.mainimg {
+  max-width: 100%;
+}
+ 
+.dotimg{
+  max-height: 500px;
+  object-fit: cover;
+}
+
+
+.divv{
+  overflow: hidden;
+}
+
+
+
+
+
+
+.custom-radius {
+    border-top-left-radius: 45% !important;
+    border-bottom-left-radius: 45% !important;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-radius {
+      border-radius: 0% !important;
+    }
+  }
+  
+  .md\:w-2\/5 {
+    width: 40%; 
+  }
+  
+  .md\:w-3\/5 {
+    width: 60%; 
+  }
+  
+  .object-cover {
+    object-fit: cover; 
+  }
+  
+  .dot {
+    background-color: rgb(254, 254, 254);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  .dot::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(232, 232, 232, 0.5);
+    animation: ripple 1.5s infinite;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    opacity: 1;
+  }
+  
+  @keyframes ripple {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+  
+  .area-details {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 10;
+    position: absolute;
+    width: 150px;
+    word-wrap: break-word;
+  }
+  
+  @media (max-width: 576px) {
+    .area-details {
+      width: 120px;
+      padding: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 6% !important;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .area-details img {
+      width: 90%;
+    }
+  
+    .area-details h5, .area-details p {
+      font-size: 10px;
+    }
+  
+    .area-details button {
+      font-size: 10px;
+      padding: 3px 7px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    .area-details {
+      width: 140px;
+      padding: 7px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 8% !important;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .area-details img {
+      width: 100%;
+    }
+  
+    .area-details h5, .area-details p {
+      font-size: 12px;
+    }
+  
+    .area-details button {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+    .area-details {
+      width: 160px;
+      padding: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 10% !important;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .area-details img {
+      width: 100%;
+    }
+  
+    .area-details h5, .area-details p {
+      font-size: 14px;
+    }
+  
+    .area-details button {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .area-details {
+      width: 200px;
+      padding: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 12% !important;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .area-details img {
+      width: 100%;
+    }
+  
+    .area-details h5, .area-details p {
+      font-size: 16px;
+    }
+  
+    .area-details button {
+      font-size: 16px;
+      padding: 8px 14px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .area-details {
+      width: 250px;
+      padding: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 15% !important;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .area-details img {
+      width: 100%;
+    }
+  
+    .area-details h5, .area-details p {
+      font-size: 18px;
+    }
+  
+    .area-details button {
+      font-size: 18px;
+      padding: 10px 16px;
+    }
+  }
+  

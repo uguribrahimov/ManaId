@@ -1,1 +1,29 @@
- 
+.footerContainer {
+    background-color: #04120b !important;
+  }
+  
+  .footerTitle {
+    font-size: 1.25rem;
+  }
+  
+  .footerDescription {
+    font-size: 0.875rem;
+  }
+  
+  .smallText {
+    font-size: 0.75rem; 
+  }
+  
+  .emailIcon {
+    font-size: 1.2rem;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .gap-3 {
+    gap: 1rem;
+  }
+  
+  

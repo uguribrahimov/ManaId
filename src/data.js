@@ -11,7 +11,7 @@ const data = {
     imageURL: "/assets/imageHomep.jpg",
     mapAreas: [
       {
-        id: 1,
+        id: 7,
         title: "Classic Sofa",
         top: 80,
         left: 11,
@@ -20,7 +20,7 @@ const data = {
         link: "http://localhost:5173/cartDetails/7"
       },
       {
-        id: 2,
+        id: 3,
         title: "King Bed",
         top: 80,
         left: 56,
@@ -253,3 +253,12 @@ const data = {
 };
 
 export default data;
+
+
+
+
+
+
+
+
+

@@ -1,24 +1,35 @@
 import React, { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './HomePage1.css'; 
-import data from "../../data"; 
-import { useNavigate } from "react-router-dom"; // Import useNavigate for redirection
+import apiClient from "../../api"; 
+import { useNavigate } from "react-router-dom";
+import DotComponent from "../dotArea/dotArea"; // DotComponent'i içe aktar
 
 const HomePage1 = () => {
   const [homepageData, setHomepageData] = useState(null);
   const [clickedArea, setClickedArea] = useState(null);
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate();
 
   useEffect(() => {
-    setHomepageData(data.homepage);
+    const fetchData = async () => {
+      try {
+        const response = await apiClient.get("/homepage");
+        setHomepageData(response);
+      } catch (error) {
+        console.error("Veri çekme hatası:", error);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const handleAreaClick = (title) => {
     setClickedArea(clickedArea === title ? null : title);
   };
+  
 
   const handleMoreInfoClick = (id) => {
-    navigate(`/cartDetails/${id}`); // Redirect to cartDetails page with the specific ID
+    navigate(`/cartDetails/${id}`); 
   };
 
   if (!homepageData) {
@@ -27,7 +38,7 @@ const HomePage1 = () => {
 
   return (
     <div className="container-fluid d-flex flex-column flex-md-row vh-100">
-      <div className="col-12 col-md-4 d-flex flex-column justify-content-center p-4">
+      <div className="col-12 col-md-4 d-flex flex-column justify-content-center p-4 left-content">
         <p className="text-muted mb-2">
           <span className="bg-dark text-white rounded-pill px-2 py-1">
             {homepageData.discountText}
@@ -53,24 +64,13 @@ const HomePage1 = () => {
             className="w-100 h-100 object-cover custom-radius"
           />
           {homepageData.mapAreas.map((area, index) => (
-            <div key={index}>
-              <div
-                className="dot"
-                style={{
-                  top: `${area.top}%`,
-                  left: `${area.left}%`,
-                }}
-                onClick={() => handleAreaClick(area.title)}
-              />
-              {clickedArea === area.title && (
-                <div className="area-details p-1 bg-white shadow" style={{ top: `${area.top - 20}%`, left: `${area.left + 5}%`, width: "150px" }}>
-                  <img src={area.image} alt={area.title} className="w-100 h-auto mb-1" />
-                  <h5 className="mb-1">{area.title}</h5>
-                  <p className="mb-1">Price: {area.price}</p>
-                  <button className="btn btn-primary" onClick={() => handleMoreInfoClick(area.id)}>More Info</button>
-                </div>
-              )}
-            </div>
+            <DotComponent
+              key={index}
+              area={area}
+              handleAreaClick={handleAreaClick}
+              isSelected={clickedArea === area.title}
+              handleMoreInfoClick={handleMoreInfoClick}
+            />
           ))}
         </div>
       </div>

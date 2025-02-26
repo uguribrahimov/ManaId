@@ -7,12 +7,15 @@ const FooterBottom = () => {
   return (
     <footer className={`bg-dark text-light py-4 ${styles.footerContainer}`}>
       <div className="container">
-        <div className="row">
-          <div className="col-md-4 mb-3 mb-md-0">
-            <h5 className={styles.footerTitle}>Mana.id</h5>
-            <p className={styles.footerDescription}>
-              Join our newsletter to stay up to date on features and releases.
-            </p>
+        <div className="row d-flex justify-content-between">
+          {/* Left Section: Mana.id and Newsletter Form */}
+          <div className="col-md-4 mb-3 mb-md-0 d-flex flex-column justify-content-between">
+            <div>
+              <h5 className={`${styles.footerTitle} ${styles.smallText}`}>Mana.id</h5>
+              <p className={`${styles.footerDescription} ${styles.smallText}`}>
+                Join our newsletter to stay up to date on features and releases.
+              </p>
+            </div>
             <div className="input-group">
               <input 
                 type="email" 
@@ -23,25 +26,22 @@ const FooterBottom = () => {
                 <span className={styles.emailIcon}>📧</span>
               </button>
             </div>
-            <p className="small text-muted mt-3">
-              By subscribing you agree to with our <a href="/privacy-policy" className="text-primary">Privacy Policy</a>.
-            </p>
           </div>
-          <div className="col-md-4">
+
+          {/* Right Section: Unordered List */}
+          <div className="col-md-4 d-flex justify-content-around">
             <ul className="list-unstyled">
-              <li><a href="/ai-interior-assistant" className="text-secondary">Product</a></li>
-              <li><a href="/ai-interior-assistant" className="text-secondary">AI Interior Assistant</a></li>
-              <li><a href="/collection" className="text-secondary">Collection</a></li>
-              <li><a href="/inspiration" className="text-secondary">Inspiration</a></li>
-              <li><a href="/blog" className="text-secondary">Blog</a></li>
+              <li className="mb-2"><a href="/ai-interior-assistant" className="text-secondary">Product</a></li>
+              <li className="mb-2"><a href="/ai-interior-assistant" className="text-secondary">AI Interior Assistant</a></li>
+              <li className="mb-2"><a href="/collection" className="text-secondary">Collection</a></li>
+              <li className="mb-2"><a href="/inspiration" className="text-secondary">Inspiration</a></li>
+              <li className="mb-2"><a href="/blog" className="text-secondary">Blog</a></li>
             </ul>
-          </div>
-          <div className="col-md-4">
             <ul className="list-unstyled">
-              <li><a href="/about" className="text-secondary">Company</a></li>
-              <li><a href="/about" className="text-secondary">About</a></li>
-              <li><a href="/privacy-policy" className="text-secondary">Privacy Policy</a></li>
-              <li><a href="/support" className="text-secondary">Support</a></li>
+              <li className="mb-2"><a href="/about" className="text-secondary">Company</a></li>
+              <li className="mb-2"><a href="/about" className="text-secondary">About</a></li>
+              <li className="mb-2"><a href="/privacy-policy" className="text-secondary">Privacy Policy</a></li>
+              <li className="mb-2"><a href="/support" className="text-secondary">Support</a></li>
             </ul>
           </div>
         </div>

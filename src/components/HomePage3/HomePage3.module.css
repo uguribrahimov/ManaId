@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+  }
+  
+  .headerTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .headerDescription {
+    color: #6c757d;
+    font-size: 1rem;
+  }
+  
+  .categoryList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .categoryCard {
+    flex: 1 1 48%;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .categoryCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .categoryCardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .categoryCardInfo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .categoryCardTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .categoryCardDescription {
+    color: white;
+    font-size: 0.9rem;
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .categoryCardDescription {
+      display: block;
+    }
+  }
+  

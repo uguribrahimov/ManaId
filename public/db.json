@@ -1,0 +1,734 @@
+{
+  "homepage": {
+    "discountText": "30%",
+    "discountDescription": "Yeni mana istifadəçiləri üçün endirim",
+    "title": "Evinizin İçi üçün Ən Yaxşı Seçim",
+    "description": "Biz evinizdə özünüzü rahat hiss edəcəyiniz ambiansı müəyyən etməkdə hekayəçiniz ola bilərik.",
+    "getStartedButtonText": "Başlayın",
+    "manaIntroductionButtonText": "Mana Tanıtımı",
+    "imageURL": "/assets/imageHomep.png",
+    "mapAreas": [
+      {
+        "id": 7,
+        "title": "Klassik Sofa",
+        "top": 70,
+        "left": 11,
+        "image": "/assets/HomPage5-8.png",
+        "price": "$200",
+        "link": "http://localhost:5173/cartDetails/7"
+      },
+      {
+        "id": 3,
+        "title": "Kral Yataq",
+        "top": 70,
+        "left": 56,
+        "image": "/assets/HomPage5-3.png",
+        "price": "$350",
+        "link": "http://localhost:5173/cartDetails/3"
+      }
+    ]
+  },
+  "homePage2": {
+    "title": "3.5M+ Şirkət Mana'ya Güvənir",
+    "description": "Eviniz və ya ofisinizin istədiyiniz kimi olmasını istəyirsinizmi? Bunu gerçəkləşdirmək üçün çox sayda memarımız var.",
+    "buttonText": "Daha çox şirkət",
+    "images": [
+      "/assets/Image.homepage2.png",
+      "/assets/imgHomePage2.png",
+      "/assets/imgHomePage2-3.png",
+      "/assets/imgHomePage2-4.png",
+      "/assets/imgHomePage2-5.png",
+      "/assets/imgHomePage2-6.png"
+    ],
+    "cards": [
+      {
+        "icon": "🎨",
+        "title": "1.2M - Yaradıcı Fikir",
+        "description": "Benzersiz Mebel Satışı"
+      },
+      {
+        "icon": "🛋️",
+        "title": "1.2M - Yaradıcı Fikir",
+        "description": "Benzersiz Mebel Satışı"
+      },
+      {
+        "icon": "📦",
+        "title": "1.2M - Yaradıcı Fikir",
+        "description": "Benzersiz Mebel Satışı"
+      }
+    ]
+  },
+  "features": [
+    {
+      "id": 1,
+      "title": "Hər Ay Endirim",
+      "description": "Hər ay endirim kuponu əldə edin",
+      "image": "/assets/imgHomepage3-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "24/7 Məsləhət",
+      "description": "Mütəxəssislərlə pulsuz məsləhət",
+      "image": "/assets/imgHomepage3-3.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Pulsuz Çatdırılma",
+      "description": "Çoxmərhələli İnkişaf",
+      "image": "/assets/imgHomepage3-2.jpg"
+    }
+  ],
+  "furnitureData": [
+    {
+      "id": 1,
+      "category": "Divan",
+      "name": "Lüks Sofa",
+      "price": "$500",
+      "image": "/assets/HomePage5-1.png"
+    },
+    {
+      "id": 2,
+      "category": "Kreslo",
+      "name": "Rahat Kreslo",
+      "price": "$150",
+      "image": "/assets/HomPage5-2.png"
+    },
+    {
+      "id": 3,
+      "category": "Masa",
+      "name": "Müasir Masa",
+      "price": "$300",
+      "image": "/assets/HomPage5-3.png"
+    },
+    {
+      "id": 4,
+      "category": "Güzgü",
+      "name": "Divar Güzgüsü",
+      "price": "$100",
+      "image": "/assets/HomPage5-4.png"
+    },
+    {
+      "id": 5,
+      "category": "Yataq Otağı",
+      "name": "Kral Yatak",
+      "price": "$800",
+      "image": "/assets/HomPage5-5.png"
+    },
+    {
+      "id": 6,
+      "category": "Divan",
+      "name": "Klassik Sofa",
+      "price": "$450",
+      "image": "/assets/HomPage5-7.png"
+    },
+    {
+      "id": 7,
+      "category": "Kreslo",
+      "name": "Ofis Kreslosu",
+      "price": "$200",
+      "image": "/assets/HomPage5-8.png"
+    },
+    {
+      "id": 8,
+      "category": "Masa",
+      "name": "Yemək Masası",
+      "price": "$400",
+      "image": "/assets/HomPage5-9.png"
+    }
+  ],
+  "cartDetails": [
+    {
+      "id": 1,
+      "category": "Divan",
+      "name": "Lüks Sofa",
+      "price": "$500",
+      "image": "/assets/HomePage5-1.png",
+      "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanan bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
+      "dimension": "120x80x40 sm",
+      "color": "Ağ",
+      "colors": ["Ağ", "Bej", "Boz"]
+    },
+    {
+      "id": 2,
+      "category": "Kreslo",
+      "name": "Rahat Kreslo",
+      "price": "$150",
+      "image": "/assets/HomPage5-2.png",
+      "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
+      "dimension": "80x40x40 sm",
+      "color": "Qara",
+      "colors": ["Qara", "Mavi", "Qırmızı"]
+    },
+    {
+      "id": 3,
+      "category": "Masa",
+      "name": "Müasir Masa",
+      "price": "$300",
+      "image": "/assets/HomPage5-3.png",
+      "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
+      "dimension": "120x60x45 sm",
+      "color": "Qəhvəyi",
+      "colors": ["Qəhvəyi", "Ağ", "Qara"]
+    },
+    {
+      "id": 4,
+      "category": "Güzgü",
+      "name": "Divar Güzgüsü",
+      "price": "$100",
+      "image": "/assets/HomPage5-4.png",
+      "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
+      "dimension": "100x50 sm",
+      "color": "Gümüş",
+      "colors": ["Gümüş", "Qızıl", "Qara"]
+    },
+    {
+      "id": 5,
+      "category": "Yataq Otağı",
+      "name": "Kral Yataq",
+      "price": "$800",
+      "image": "/assets/HomPage5-5.png",
+      "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
+      "dimension": "200x180x60 sm",
+      "color": "Boz",
+      "colors": ["Boz", "Ağ", "Qara"]
+    },
+    {
+      "id": 6,
+      "category": "Dİvan",
+      "name": "Klassik Sofa",
+      "price": "$450",
+      "image": "/assets/HomPage5-7.png",
+      "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
+      "dimension": "120x70x40 sm",
+      "color": "Bej",
+      "colors": ["Bej", "Ağ", "Mavi"]
+    },
+    {
+      "id": 7,
+      "category": "Kreslo",
+      "name": "Ofis Kreslosu",
+      "price": "$200",
+      "image": "/assets/HomPage5-8.png",
+      "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
+      "dimension": "90x60x60 sm",
+      "color": "Qara",
+      "colors": ["Qara", "Boz", "Qəhvəyi"]
+    },
+    {
+      "id": 8,
+      "category": "Masa",
+      "name": "Yemək Masası",
+      "price": "$400",
+      "image": "/assets/HomPage5-9.png",
+      "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
+      "dimension": "180x90x75 sm",
+      "color": "Qəhvəyi",
+      "colors": ["Qəhvəyi", "Ağ", "Qara"]
+    }
+  ],
+  "membership": [
+    {
+      "name": "Pulsuz",
+      "price": 0,
+      "period": "Ay",
+      "description": "Mana.id lorem-u sınamanın ən asan və sürətli yolu",
+      "buttonText": "Pulsuz qeydiyyatdan keç",
+      "benefits": [
+        "Benefit 1",
+        "Benefit 2",
+        "Benefit 3",
+        "Benefit 4",
+        "Benefit 5",
+        "Benefit 6",
+        "Benefit 7",
+        "Benefit 8"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": 15,
+      "period": "Ay",
+      "description": "Kiçik şirkətlər üçün daxili dizaynı yaxşılaşdırmaq üçün daha çox imkan",
+      "buttonText": "Başla",
+      "benefits": [
+        "Pulsuz olan bütün faydalar, və:",
+        "Benefit 1",
+        "Benefit 2",
+        "Benefit 3",
+        "Benefit 4",
+        "Benefit 5",
+        "Benefit 6",
+        "Benefit 7"
+      ]
+    },
+    {
+      "name": "Biznes",
+      "price": 25,
+      "period": "Ay",
+      "description": "Orta ölçülü şirkətlər üçün daxili dizaynı yaxşılaşdırmaq üçün daha çox imkan",
+      "buttonText": "Başla",
+      "benefits": [
+        "Pro faydalarının hamısı, və:",
+        "Benefit 1",
+        "Benefit 2",
+        "Benefit 3",
+        "Benefit 4",
+        "Benefit 5",
+        "Benefit 6",
+        "Benefit 7"
+      ]
+    },
+    {
+      "name": "Ən Yüksək",
+      "price": 80,
+      "period": "Ay",
+      "description": "Böyük şirkətlər üçün daxili dizaynı yaxşılaşdırmaq üçün daha çox imkan",
+      "buttonText": "Başla",
+      "benefits": [
+        "Biznes faydalarının hamısı, və:",
+        "Benefit 1",
+        "Benefit 2",
+        "Benefit 3",
+        "Benefit 4",
+        "Benefit 5",
+        "Benefit 6",
+        "Benefit 7"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id":1,
+      "title": "Sofalar",
+      "description": "Salonunuz üçün rahat və şık sofalalar.",
+      "image": "public/assets/imgHomepage4-1.png"
+    },
+    {
+      "id":2,
+      "title": "Yata1lar",
+      "description": "Premium yata1larımızla rahat bir yuxu alın.",
+      "image": "public/assets/imgHomepage4-2.png"
+    },
+    {
+      "id":3,
+      "title": "Masalar",
+      "description": "Hər ev və ofis üçün zərif masalar.",
+      "image": "public/assets/imgHomepage4-3.png"
+    },
+    {
+      "id":4,
+      "title": "Kreslolar",
+      "description": "Hər otağınız üçün rahat kreslolar.",
+      "image": "public/assets/imgHomepage4-4.png"
+    }
+  ],
+  
+   "inspiration": [
+  {
+    "id": 1,
+    "title": "Card 1",
+    "description": "Description for Card 1",
+    "category": "Modern",
+    "story": "This is the story for Card 1. It showcases modern design elements that blend functionality and style.",
+    "furniture": [
+      {
+        "name": "Sofa",
+        "image": "/assets/furniture1.jpg",
+        "description": "Modern sofa with sleek design. Item Code: SF001",
+        "price": "$500",
+        "itemCode": "SF001"
+      },
+      {
+        "name": "Chair",
+        "image": "/assets/furniture2.jpg",
+        "description": "Stylish chair for living room. Item Code: CH002",
+        "price": "$150",
+        "itemCode": "CH002"
+      },
+      {
+        "name": "Table",
+        "image": "/assets/furniture3.jpg",
+        "description": "Modern coffee table. Item Code: TB003",
+        "price": "$200",
+        "itemCode": "TB003"
+      },
+      {
+        "name": "Lamp",
+        "image": "/assets/furniture4.jpg",
+        "description": "Minimalist ambiance lamp. Item Code: LP004",
+        "price": "$100",
+        "itemCode": "LP004"
+      },
+      {
+        "name": "Bookshelf",
+        "image": "/assets/furniture5.jpg",
+        "description": "Contemporary storage bookshelf. Item Code: BK005",
+        "price": "$250",
+        "itemCode": "BK005"
+      }
+    ],
+    "images": [
+      "/assets/Rectangle 63.jpg",
+      "/assets/Rectangle 64.jpg",
+      "/assets/Rectangle 65.jpg",
+      "/assets/Rectangle 66.jpg"
+    ],
+    "mainImages": "/assets/Rectangle 67.jpg",
+    "mapAreas": [
+      {
+        "title": "Sofa Area",
+        "image": "/assets/furniture1.jpg",
+        "price": "$500",
+        "top": 50,
+        "left": 40
+      },
+      {
+        "title": "Lamp Area",
+        "image": "/assets/furniture4.jpg",
+        "price": "$100",
+        "top": 30,
+        "left": 60
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Card 2",
+    "description": "Description for Card 2",
+    "category": "Classic",
+    "story": "This is the story for Card 2. A journey through timeless design elements that never go out of style.",
+    "furniture": [
+      {
+        "name": "Armchair",
+        "image": "/assets/furniture6.jpg",
+        "description": "Classic armchair with luxurious fabric. Item Code: AC006",
+        "price": "$300",
+        "itemCode": "AC006"
+      },
+      {
+        "name": "Dining Table",
+        "image": "/assets/furniture7.jpg",
+        "description": "Elegant dining table for gatherings. Item Code: DT007",
+        "price": "$600",
+        "itemCode": "DT007"
+      },
+      {
+        "name": "Mirror",
+        "image": "/assets/furniture8.jpg",
+        "description": "Vintage charm mirror. Item Code: MR008",
+        "price": "$150",
+        "itemCode": "MR008"
+      },
+      {
+        "name": "Chest of Drawers",
+        "image": "/assets/furniture9.jpg",
+        "description": "Classic bedroom chest of drawers. Item Code: CD009",
+        "price": "$400",
+        "itemCode": "CD009"
+      },
+      {
+        "name": "Sideboard",
+        "image": "/assets/furniture10.jpg",
+        "description": "Rustic wooden sideboard. Item Code: SB010",
+        "price": "$350",
+        "itemCode": "SB010"
+      }
+    ],
+    "images": [
+      "/assets/Rectangle 63.jpg",
+      "/assets/Rectangle 64.jpg",
+      "/assets/Rectangle 65.jpg",
+      "/assets/Rectangle 66.jpg"
+    ],
+    "mainImages": "/assets/Rectangle 64.jpg",
+    "mapAreas": [
+      {
+        "title": "Dining Table Area",
+        "image": "/assets/furniture7.jpg",
+        "price": "$600",
+        "top": 55,
+        "left": 35
+      },
+      {
+        "title": "Armchair Area",
+        "image": "/assets/furniture6.jpg",
+        "price": "$300",
+        "top": 40,
+        "left": 70
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Card 3",
+    "description": "Description for Card 3",
+    "category": "Minimalist",
+    "story": "This is the story for Card 3. Featuring clean lines and simplicity that reflect minimalist principles.",
+    "furniture": [
+      {
+        "name": "Coffee Table",
+        "image": "/assets/furniture11.jpg",
+        "description": "Simple and elegant coffee table. Item Code: CT011",
+        "price": "$200",
+        "itemCode": "CT011"
+      },
+      {
+        "name": "Stool",
+        "image": "/assets/furniture12.jpg",
+        "description": "Minimalistic stool for interiors. Item Code: ST012",
+        "price": "$80",
+        "itemCode": "ST012"
+      },
+      {
+        "name": "Desk",
+        "image": "/assets/furniture13.jpg",
+        "description": "Minimalist desk for small office. Item Code: DK013",
+        "price": "$250",
+        "itemCode": "DK013"
+      },
+      {
+        "name": "Shelf",
+        "image": "/assets/furniture14.jpg",
+        "description": "Wall-mounted clutter-free shelf. Item Code: SH014",
+        "price": "$150",
+        "itemCode": "SH014"
+      },
+      {
+        "name": "Lamp",
+        "image": "/assets/furniture15.jpg",
+        "description": "Sleek modern desk lamp. Item Code: LP015",
+        "price": "$100",
+        "itemCode": "LP015"
+      }
+    ],
+    "images": [
+      "/assets/Rectangle 63.jpg",
+      "/assets/Rectangle 64.jpg",
+      "/assets/Rectangle 65.jpg",
+      "/assets/Rectangle 66.jpg"
+    ],
+    "mainImages": "/assets/Rectangle 64.jpg",
+    "mapAreas": [
+      {
+        "title": "Coffee Table Area",
+        "image": "/assets/furniture11.jpg",
+        "price": "$200",
+        "top": 60,
+        "left": 50
+      },
+      {
+        "title": "Desk Area",
+        "image": "/assets/furniture13.jpg",
+        "price": "$250",
+        "top": 20,
+        "left": 30
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Card 4",
+    "description": "Description for Card 4",
+    "category": "Rustic",
+    "story": "This is the story for Card 4. A celebration of earthy materials and rustic charm that brings nature indoors.",
+    "furniture": [
+      {
+        "name": "Wooden Chair",
+        "image": "/assets/furniture16.jpg",
+        "description": "Rustic handcrafted wooden chair. Item Code: WC016",
+        "price": "$100",
+        "itemCode": "WC016"
+      },
+      {
+        "name": "Rustic Table",
+        "image": "/assets/furniture17.jpg",
+        "description": "Sturdy reclaimed wood table. Item Code: RT017",
+        "price": "$300",
+        "itemCode": "RT017"
+      },
+      {
+        "name": "Cabinet",
+        "image": "/assets/furniture18.jpg",
+        "description": "Rustic storage cabinet. Item Code: CB018",
+        "price": "$250",
+        "itemCode": "CB018"
+      },
+      {
+        "name": "Floor Lamp",
+        "image": "/assets/furniture19.jpg",
+        "description": "Vintage industrial floor lamp. Item Code: FL019",
+        "price": "$150",
+        "itemCode": "FL019"
+      },
+      {
+        "name": "Armchair",
+        "image": "/assets/furniture20.jpg",
+        "description": "Comfortable natural armchair. Item Code: AC020",
+        "price": "$200",
+        "itemCode": "AC020"
+      }
+    ],
+    "images": [
+      "/assets/Rectangle 63.jpg",
+      "/assets/Rectangle 64.jpg",
+      "/assets/Rectangle 65.jpg",
+      "/assets/Rectangle 66.jpg"
+    ],
+    "mainImages": "/assets/Rectangle 64.jpg",
+    "mapAreas": [
+      {
+        "title": "Wooden Chair Area",
+        "image": "/assets/furniture16.jpg",
+        "price": "$100",
+        "top": 65,
+        "left": 45
+      },
+      {
+        "title": "Floor Lamp Area",
+        "image": "/assets/furniture19.jpg",
+        "price": "$150",
+        "top": 25,
+        "left": 55
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Card 5",
+    "description": "Description for Card 5",
+    "category": "Modern",
+    "story": "This is the story for Card 5. Blending cutting-edge design with functionality for a contemporary lifestyle.",
+    "furniture": [
+      {
+        "name": "Sofa",
+        "image": "/assets/furniture21.jpg",
+        "description": "A modern sofa designed for comfort and style. Item Code: SF021",
+        "price": "$700",
+        "itemCode": "SF021"
+      },
+      {
+        "name": "Coffee Table",
+        "image": "/assets/furniture22.jpg",
+        "description": "A stylish and functional coffee table. Item Code: CT022",
+        "price": "$200",
+        "itemCode": "CT022"
+      },
+      {
+        "name": "Bookshelf",
+        "image": "/assets/furniture23.jpg",
+        "description": "A modern bookshelf with ample storage. Item Code: BK023",
+        "price": "$250",
+        "itemCode": "BK023"
+      },
+      {
+        "name": "Dining Chair",
+        "image": "/assets/furniture24.jpg",
+        "description": "A chic dining chair perfect for any dining room. Item Code: DC024",
+        "price": "$150",
+        "itemCode": "DC024"
+      },
+      {
+        "name": "Wall Art",
+        "image": "/assets/furniture25.jpg",
+        "description": "A contemporary piece of wall art to add personality to your home. Item Code: WA025",
+        "price": "$100",
+        "itemCode": "WA025"
+      }
+    ],
+    "images": [
+      "/assets/Rectangle 63.jpg",
+      "/assets/Rectangle 64.jpg",
+      "/assets/Rectangle 65.jpg",
+      "/assets/Rectangle 66.jpg"
+    ],
+    "mainImages": "/assets/Rectangle 64.jpg",
+    "mapAreas": [
+      {
+        "title": "Sofa Area",
+        "image": "/assets/furniture21.jpg",
+        "price": "$700",
+        "top": 50,
+        "left": 40
+      },
+      {
+        "title": "Coffee Table Area",
+        "image": "/assets/furniture22.jpg",
+        "price": "$200",
+        "top": 60,
+        "left": 30
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Card 6",
+    "description": "Description for Card 6",
+    "category": "Classic",
+    "story": "This is the story for Card 6. A timeless collection inspired by classic designs that stand the test of time.",
+    "furniture": [
+      {
+        "name": "Dining Table",
+        "image": "/assets/furniture26.jpg",
+        "description": "A classic dining table for memorable meals. Item Code: DT026",
+        "price": "$800",
+        "itemCode": "DT026"
+      },
+      {
+        "name": "Chandelier",
+        "image": "/assets/furniture27.jpg",
+        "description": "An elegant chandelier to light up your dining room. Item Code: CH027",
+        "price": "$500",
+        "itemCode": "CH027"
+      },
+      {
+        "name": "Armchair",
+        "image": "/assets/furniture28.jpg",
+        "description": "A classic armchair for comfort and style. Item Code: AC028",
+        "price": "$300",
+        "itemCode": "AC028"
+      },
+      {
+        "name": "Sideboard",
+        "image": "/assets/furniture29.jpg",
+        "description": "A luxurious sideboard for your living room. Item Code: SB029",
+        "price": "$400",
+        "itemCode": "SB029"
+      },
+      {
+        "name": "Mirror",
+        "image": "/assets/furniture30.jpg",
+        "description": "A classic mirror that complements any decor. Item Code: MR030",
+        "price": "$150",
+        "itemCode": "MR030"
+      }
+    ],
+    "images": [
+      "/assets/Rectangle 63.jpg",
+      "/assets/Rectangle 64.jpg",
+      "/assets/Rectangle 65.jpg",
+      "/assets/Rectangle 66.jpg"
+    ],
+    "mainImages": "/assets/Rectangle 64.jpg",
+    "mapAreas": [
+      {
+        "title": "Dining Table Area",
+        "image": "/assets/furniture26.jpg",
+        "price": "$800",
+        "top": 50,
+        "left": 40
+      },
+      {
+        "title": "Chandelier Area",
+        "image": "/assets/furniture27.jpg",
+        "price": "$500",
+        "top": 20,
+        "left": 60
+      }
+    ]
+  }
+]
+
+
+
+  
+}

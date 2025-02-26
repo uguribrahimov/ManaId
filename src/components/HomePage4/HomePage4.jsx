@@ -3,7 +3,7 @@ import { Card, Button, Input } from "antd";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./HomePage4.module.css";
 import { useNavigate } from "react-router-dom";
-import data from "../../../src/data"; 
+import apiClient from "../../api"; // Axios interceptor'ü içeren API istemcisi
 
 const { Search } = Input;
 
@@ -14,9 +14,17 @@ const HomePage4 = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const fetchedData = data.furnitureData;
-    setFurnitureData(fetchedData);
-    setFilteredData(fetchedData);
+    const fetchData = async () => {
+      try {
+        const response = await apiClient.get("/furnitureData");
+        setFurnitureData(response);
+        setFilteredData(response);
+      } catch (error) {
+        console.error("Veri çekme hatası:", error);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const handleSearch = (value) => {
@@ -45,7 +53,7 @@ const HomePage4 = () => {
         <div className={styles.headerLeft}>
           <h1 className={`display-4 ${styles.logo}`}>Mana Furnitures</h1>
           <div className="btn-group" role="group" aria-label="Basic example">
-            {["ALL", "Sofa", "Chair", "Table", "Mirror", "Bedroom"].map((category) => (
+            {["ALL", "Divan", "Masa", "Kreslo", "Güzgü", "Yataq otağı"].map((category) => (
               <Button
                 key={category}
                 type="button"
@@ -81,8 +89,7 @@ const HomePage4 = () => {
                 <div className={`d-flex justify-content-between align-items-center ${styles.cardFooter}`}>
                   <span className={`badge ${styles.cardCategory}`}>{item.category}</span>
                   <Button 
-                    type="link" 
-                    className={`btn btn-link ${styles.detailsButton}`} 
+                    className={`btn ${styles.detailsButton}`} 
                     onClick={() => handleDetailsClick(item.id)} 
                   >
                     See Details

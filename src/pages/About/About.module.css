@@ -1,44 +1,79 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body, html {
-    height: 100%;
-    font-family: Arial, sans-serif;
-  }
-  
-  .aboutContainer {
-    background: url('../../../public//assets/about.jpg') no-repeat center center/cover; 
-    filter: grayscale(100%); 
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: white;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;}
-  
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 1.5rem;
-    line-height: 1.6;
-  }
-  
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body, .html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.aboutContainer {
+  background: url('../../../public/assets/about.jpg') no-repeat center center/cover;
+  filter: grayscale(100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.aboutContainer {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url('public/assets/about.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+.h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  width: 90%;
+  margin: 0 auto;
+}
