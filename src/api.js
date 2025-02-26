@@ -1,7 +1,7 @@
 import axios from "axios";
 // npx json-server --watch public/db.json --port 3000
 const apiClient = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://rough-mighty-dream.glitch.me/",
   headers: {
     "Content-Type": "application/json"
   }
