@@ -301,25 +301,25 @@
       "id":1,
       "title": "Sofalar",
       "description": "Salonunuz üçün rahat və şık sofalalar.",
-      "image": "public/assets/imgHomepage4-1.jpg"
+      "image": "/assets/imgHomepage4-1.jpg"
     },
     {
       "id":2,
       "title": "Yata1lar",
       "description": "Premium yata1larımızla rahat bir yuxu alın.",
-      "image": "public/assets/imgHomepage4-2.jpg"
+      "image": "/assets/imgHomepage4-2.jpg"
     },
     {
       "id":3,
       "title": "Masalar",
       "description": "Hər ev və ofis üçün zərif masalar.",
-      "image": "public/assets/imgHomepage4-3.jpg"
+      "image": "/assets/imgHomepage4-3.jpg"
     },
     {
       "id":4,
       "title": "Kreslolar",
       "description": "Hər otağınız üçün rahat kreslolar.",
-      "image": "public/assets/imgHomepage4-4.jpg"
+      "image": "/assets/imgHomepage4-4.jpg"
     }
   ],
   

@@ -16,7 +16,7 @@ const Headers = () => {
     <div className="d-flex align-items-center justify-content-between p-3">
       <div className="d-flex align-items-center">
         <img 
-          src="../../public/assets/image.png" 
+          src="/assets/image.png" 
           alt="Logo Icon" 
           className="img-fluid" 
           style={{ width: "40px", height: "40px" }} 
