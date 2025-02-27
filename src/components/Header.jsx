@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Drawer, Button } from "antd";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import SearchInput from "./Search/Search"; // Arama bileşeni
+import SearchInput from "./Search/Search"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Headers = () => {
@@ -14,7 +14,6 @@ const Headers = () => {
 
   return (
     <div className="d-flex align-items-center justify-content-between p-3">
-      {/* Logo */}
       <div className="d-flex align-items-center">
         <img 
           src="../../public/assets/image.png" 
@@ -25,12 +24,10 @@ const Headers = () => {
         <span className="fw-bold text-dark ms-2" style={{ fontSize: "1.2rem" }}>Mana.id</span>
       </div>
 
-      {/* Arama Inputu */}
       <div className="d-flex justify-content-center flex-grow-1 px-4" style={{ maxWidth: "600px" }}>
         <SearchInput />
       </div>
 
-      {/* Menü Butonu */}
       <Button 
         onClick={toggleMenu} 
         style={{ fontSize: 30, backgroundColor: 'white' }}
@@ -38,7 +35,6 @@ const Headers = () => {
                          : <FaBars style={{ color: 'black', fontSize: '30px' }} />}
       />
 
-      {/* Drawer Menü */}
       <Drawer
         placement="left"
         onClose={toggleMenu}       

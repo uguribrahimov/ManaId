@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './HomePage1.css'; 
 import apiClient from "../../api"; 
 import { useNavigate } from "react-router-dom";
-import DotComponent from "../dotArea/dotArea"; // DotComponent'i içe aktar
+import DotComponent from "../dotArea/dotArea"; 
+import Loading from "../Loading/Loading";
 
 const HomePage1 = () => {
   const [homepageData, setHomepageData] = useState(null);
@@ -32,8 +33,17 @@ const HomePage1 = () => {
     navigate(`/cartDetails/${id}`); 
   };
 
+  const handleClick = () => {
+    navigate("/membership")
+  }
+
+  const handleClickB = () => {
+    navigate("/about")
+  }
+
+
   if (!homepageData) {
-    return <div>Loading...</div>;
+    return <Loading/>;
   }
 
   return (
@@ -48,10 +58,10 @@ const HomePage1 = () => {
         <h1 className="h3 fw-bold mb-4">{homepageData.title}</h1>
         <p className="mb-4 text-secondary">{homepageData.description}</p>
         <div className="d-flex flex-wrap gap-2">
-          <button className="btn btn-dark rounded px-4 py-2">
+          <button onClick={() => {handleClick()}} className="btn btn-dark rounded px-4 py-2">
             {homepageData.getStartedButtonText}
           </button>
-          <button className="btn btn-outline-secondary rounded px-4 py-2">
+          <button onClick={() => {handleClickB()}} className="btn btn-outline-secondary rounded px-4 py-2">
             {homepageData.manaIntroductionButtonText}
           </button>
         </div>

@@ -1,19 +1,32 @@
 import React, { useEffect, useState } from "react";
 import { Button, Card, Row, Col } from "antd";
 import styles from "./Membership.module.css";
-import data from "../../../src/data"; 
+import apiClient from "../../api"; 
+import Loading from "../../components/Loading/Loading"; 
 
 const { Meta } = Card;
 
 const Membership = () => {
   const [plans, setPlans] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setPlans(data.membership); 
+    const fetchPlans = async () => {
+      try {
+        const response = await apiClient.get("/membership");
+        setPlans(response);
+      } catch (error) {
+        console.error("error:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchPlans();
   }, []);
 
-  if (plans.length === 0) {
-    return <div>Loading...</div>;
+  if (loading) {
+    return <Loading />; // API yüklenirken Loading bileşeni göster
   }
 
   return (

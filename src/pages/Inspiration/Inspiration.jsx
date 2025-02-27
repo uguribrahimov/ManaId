@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from 'react-router-dom';
 import apiClient from '../../api';
-import './inspiration.css'; // CSS dosyasını içe aktardık
+import './inspiration.css'; 
+import Loading from '../../components/Loading/Loading';
 
-function App() {
+function Inspiration() {
   const [cardsData, setCardsData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [categories, setCategories] = useState([]);
@@ -18,7 +19,6 @@ function App() {
         setCardsData(response);
         setFilteredData(response);
 
-        // Kategorileri belirle (tekrar edenleri kaldır)
         const uniqueCategories = ['All', ...new Set(response.map(item => item.category))];
         setCategories(uniqueCategories);
       } catch (error) {
@@ -29,7 +29,7 @@ function App() {
     fetchData();
   }, []);
 
-  // Filtreleme fonksiyonu
+
   const filterByCategory = (category) => {
     setActiveCategory(category);
     if (category === 'All') {
@@ -44,6 +44,10 @@ function App() {
     
     navigate(`/inspirationDetails/${id}`);
   };
+
+if (cardsData.length === 0) {
+  return <Loading />;
+}
 
   return (
     <div className="container mt-5">
@@ -104,4 +108,4 @@ function App() {
   );
 }
 
-export default App;
+export default Inspiration;

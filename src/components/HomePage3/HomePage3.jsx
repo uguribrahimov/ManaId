@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom"; // useNavigate kullanıyoruz
-import apiClient from "../../api"; // Axios API istemcisi
-import styles from "./HomePage3.module.css"; // CSS module'ü import ediyoruz
+import { useNavigate } from "react-router-dom"; 
+import apiClient from "../../api"; 
+import styles from "./HomePage3.module.css"; 
+import Loading from "../Loading/Loading";
 
 const HomePage3 = () => {
   const [categories, setCategories] = useState([]);
-  const navigate = useNavigate(); // useNavigate hook'u
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     const fetchCategories = async () => {
       try {
         const response = await apiClient.get("/categories");
-        setCategories(response); // response.data kullanılıyor
+        setCategories(response); 
       } catch (error) {
         console.error("Veri çekme hatası:", error);
       }
@@ -20,8 +21,12 @@ const HomePage3 = () => {
     fetchCategories();
   }, []);
 
+  if (!categories) {
+    return <Loading/>;
+  }
+
   const handleCategoryClick = (categoryId) => {
-    navigate(`/InspirationDetails/${categoryId}`); // Dinamik kategori sayfasına yönlendirme
+    navigate(`/InspirationDetails/${categoryId}`); 
   };
 
   return (
@@ -39,7 +44,7 @@ const HomePage3 = () => {
           <div
             key={index}
             className={styles.categoryCard}
-            onClick={() => handleCategoryClick(category.id)} // Kategoriye tıklayınca yönlendir
+            onClick={() => handleCategoryClick(category.id)} 
           >
             <img
               src={category.image}

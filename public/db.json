@@ -6,7 +6,7 @@
     "description": "Biz evinizdə özünüzü rahat hiss edəcəyiniz ambiansı müəyyən etməkdə hekayəçiniz ola bilərik.",
     "getStartedButtonText": "Başlayın",
     "manaIntroductionButtonText": "Mana Tanıtımı",
-    "imageURL": "/assets/imageHomep.png",
+    "imageURL": "/assets/imageHomep.jpg",
     "mapAreas": [
       {
         "id": 7,
@@ -142,7 +142,7 @@
       "category": "Divan",
       "name": "Lüks Sofa",
       "price": "$500",
-      "image": "/assets/HomePage5-1.png",
+      "image": "/assets/HomePage5-1.jpg",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanan bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "120x80x40 sm",
       "color": "Ağ",
@@ -153,7 +153,7 @@
       "category": "Kreslo",
       "name": "Rahat Kreslo",
       "price": "$150",
-      "image": "/assets/HomPage5-2.png",
+      "image": "/assets/HomPage5-2.jpg",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "80x40x40 sm",
       "color": "Qara",
@@ -164,7 +164,7 @@
       "category": "Masa",
       "name": "Müasir Masa",
       "price": "$300",
-      "image": "/assets/HomPage5-3.png",
+      "image": "/assets/HomPage5-3.jpg",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "120x60x45 sm",
       "color": "Qəhvəyi",
@@ -175,7 +175,7 @@
       "category": "Güzgü",
       "name": "Divar Güzgüsü",
       "price": "$100",
-      "image": "/assets/HomPage5-4.png",
+      "image": "/assets/HomPage5-4.jpg",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "100x50 sm",
       "color": "Gümüş",
@@ -186,7 +186,7 @@
       "category": "Yataq Otağı",
       "name": "Kral Yataq",
       "price": "$800",
-      "image": "/assets/HomPage5-5.png",
+      "image": "/assets/HomPage5-5.jpg",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "200x180x60 sm",
       "color": "Boz",
@@ -197,7 +197,7 @@
       "category": "Dİvan",
       "name": "Klassik Sofa",
       "price": "$450",
-      "image": "/assets/HomPage5-7.png",
+      "image": "/assets/HomPage5-7.jpg",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "120x70x40 sm",
       "color": "Bej",
@@ -208,7 +208,7 @@
       "category": "Kreslo",
       "name": "Ofis Kreslosu",
       "price": "$200",
-      "image": "/assets/HomPage5-8.png",
+      "image": "/assets/HomPage5-8.jpg",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "90x60x60 sm",
       "color": "Qara",
@@ -219,7 +219,7 @@
       "category": "Masa",
       "name": "Yemək Masası",
       "price": "$400",
-      "image": "/assets/HomPage5-9.png",
+      "image": "/assets/HomPage5-9.jpg",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "180x90x75 sm",
       "color": "Qəhvəyi",
@@ -265,7 +265,7 @@
       "name": "Biznes",
       "price": 25,
       "period": "Ay",
-      "description": "Orta ölçülü şirkətlər üçün daxili dizaynı yaxşılaşdırmaq üçün daha çox imkan",
+      "description": "Orta ölçülü şirkətlər üçün daxili dizaynı yaxşılaşdırmaq üçün imkan",
       "buttonText": "Başla",
       "benefits": [
         "Pro faydalarının hamısı, və:",
@@ -301,25 +301,25 @@
       "id":1,
       "title": "Sofalar",
       "description": "Salonunuz üçün rahat və şık sofalalar.",
-      "image": "public/assets/imgHomepage4-1.png"
+      "image": "public/assets/imgHomepage4-1.jpg"
     },
     {
       "id":2,
       "title": "Yata1lar",
       "description": "Premium yata1larımızla rahat bir yuxu alın.",
-      "image": "public/assets/imgHomepage4-2.png"
+      "image": "public/assets/imgHomepage4-2.jpg"
     },
     {
       "id":3,
       "title": "Masalar",
       "description": "Hər ev və ofis üçün zərif masalar.",
-      "image": "public/assets/imgHomepage4-3.png"
+      "image": "public/assets/imgHomepage4-3.jpg"
     },
     {
       "id":4,
       "title": "Kreslolar",
       "description": "Hər otağınız üçün rahat kreslolar.",
-      "image": "public/assets/imgHomepage4-4.png"
+      "image": "public/assets/imgHomepage4-4.jpg"
     }
   ],
   

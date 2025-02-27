@@ -23,6 +23,10 @@ const HomePage4 = () => {
         console.error("Veri çekme hatası:", error);
       }
     };
+    if (!furnitureData && !filteredData ) {
+      return <Loading/>;
+    }
+    
 
     fetchData();
   }, []);

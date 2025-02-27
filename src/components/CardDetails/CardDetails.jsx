@@ -1,11 +1,12 @@
-// CartDetails.js
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../Store/cartSlice";
 import "bootstrap/dist/css/bootstrap.min.css";
-import apiClient from "../../api"; // Axios interceptor'ü içeren API istemcisi
-import AnotherProduct from "../AnotherPruduct/anotherPruduct"; // Yeni componenti import ediyoruz
+import apiClient from "../../api";
+import AnotherProduct from "../AnotherPruduct/anotherPruduct";
+import Loading from "../Loading/Loading";
+import ToastNotification, { showToast } from "../Toast"; // Toast bileşenini ve fonksiyonunu ekleyin
 
 const CartDetails = () => {
   const { id } = useParams();
@@ -36,15 +37,17 @@ const CartDetails = () => {
 
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
-    navigate("/cart");
+    showToast("Səbətə əlavə olundu!", "success"); // Toast bildirimi göster
   };
 
   if (!product) {
-    return <div>Loading...</div>;
+    return <Loading />;
   }
 
   return (
     <div className="container py-5">
+      {/* ToastNotification bileşenini ekleyin */}
+      <ToastNotification />
       <div className="row mb-4">
         <div className="col-md-6 mb-3 mb-md-0">
           <img

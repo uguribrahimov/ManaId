@@ -8,45 +8,44 @@ const FooterBottom = () => {
     <footer className={`bg-dark text-light py-4 ${styles.footerContainer}`}>
       <div className="container">
         <div className="row d-flex justify-content-between">
-          {/* Left Section: Mana.id and Newsletter Form */}
+          {/* Sol hissə: Mana.id və bülleten formu */}
           <div className="col-md-4 mb-3 mb-md-0 d-flex flex-column justify-content-between">
             <div>
               <h5 className={`${styles.footerTitle} ${styles.smallText}`}>Mana.id</h5>
               <p className={`${styles.footerDescription} ${styles.smallText}`}>
-                Join our newsletter to stay up to date on features and releases.
+                Xüsusiyyətlər və yeniliklər haqqında xəbərdar olmaq üçün bülletenimizə abunə olun.
               </p>
             </div>
             <div className="input-group">
               <input 
                 type="email" 
-                placeholder="Enter your email" 
+                placeholder="E-poçtunuzu daxil edin" 
                 className="form-control" 
               />
-              <button className="btn btn-primary" type="button">
+              <button className="btn btn-light" type="button">
                 <span className={styles.emailIcon}>📧</span>
               </button>
             </div>
           </div>
 
-          {/* Right Section: Unordered List */}
           <div className="col-md-4 d-flex justify-content-around">
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="/ai-interior-assistant" className="text-secondary">Product</a></li>
-              <li className="mb-2"><a href="/ai-interior-assistant" className="text-secondary">AI Interior Assistant</a></li>
-              <li className="mb-2"><a href="/collection" className="text-secondary">Collection</a></li>
-              <li className="mb-2"><a href="/inspiration" className="text-secondary">Inspiration</a></li>
-              <li className="mb-2"><a href="/blog" className="text-secondary">Blog</a></li>
+              <li className="mb-2"><a href="/ai-interior-assistant" className="text-secondary">Məhsul</a></li>
+              <li className="mb-2"><a href="/ai-interior-assistant" className="text-secondary">AI Daxili Dizayn Köməkçisi</a></li>
+              <li className="mb-2"><a href="/collection" className="text-secondary">Kolleksiya</a></li>
+              <li className="mb-2"><a href="/inspiration" className="text-secondary">İlham</a></li>
+              <li className="mb-2"><a href="/blog" className="text-secondary">Bloq</a></li>
             </ul>
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="/about" className="text-secondary">Company</a></li>
-              <li className="mb-2"><a href="/about" className="text-secondary">About</a></li>
-              <li className="mb-2"><a href="/privacy-policy" className="text-secondary">Privacy Policy</a></li>
-              <li className="mb-2"><a href="/support" className="text-secondary">Support</a></li>
+              <li className="mb-2"><a href="/about" className="text-secondary">Şirkət</a></li>
+              <li className="mb-2"><a href="/about" className="text-secondary">Haqqımızda</a></li>
+              <li className="mb-2"><a href="/privacy-policy" className="text-secondary">Məxfilik siyasəti</a></li>
+              <li className="mb-2"><a href="/support" className="text-secondary">Dəstək</a></li>
             </ul>
           </div>
         </div>
         <div className="d-flex justify-content-between align-items-center mt-4 pt-3 border-top">
-          <p className="mb-0">©2023 Liner. All rights reserved.</p>
+          <p className="mb-0">©2023 Liner. Bütün hüquqlar qorunur.</p>
           <div className="d-flex gap-3">
             <a href="https://www.instagram.com" className="text-dark bg-light p-2 rounded"><FaInstagram /></a>
             <a href="https://www.twitter.com" className="text-dark bg-light p-2 rounded"><FaTwitter /></a>

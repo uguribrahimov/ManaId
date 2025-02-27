@@ -1,7 +1,6 @@
-// RelatedProductCard.js
 import React from "react";
 import { Link } from "react-router-dom";
-import "./AnotherProduct.css"; // CSS dosyasını import ediyoruz
+import "./AnotherProduct.css"; 
 
 const RelatedProductCard = ({ product }) => {
   return (

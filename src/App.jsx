@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { motion } from 'framer-motion'; // motion'ı import ediyoruz
+import { motion } from 'framer-motion'; 
 import Headers from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About/About';
@@ -14,6 +14,7 @@ import Membership from './pages/Membership/Membership';
 import SignIn from './pages/SignIn/SignIn';
 import Inspiration from './pages/Inspiration/Inspiration';
 import InspirationDetails from './components/inspDetails/InspirationDetails';
+import NotFound from './pages/NotFound/NotFound';
 
 const App = () => {
   const [cart, setCart] = useState([]);
@@ -26,20 +27,18 @@ const App = () => {
     <Provider store={store}>
       <Router>
         <div className="">
-          {/* Headers için animasyon */}
           <motion.div
-            initial={{ opacity: 0, y: -50 }} // Başlangıçta görünmez ve yukarıda
-            animate={{ opacity: 1, y: 0 }} // Sayfa yüklendiğinde aşağıya doğru kayar
+            initial={{ opacity: 0, y: -50 }} 
+            animate={{ opacity: 1, y: 0 }} 
             transition={{ duration: 0.5 }}
           >
             <Headers />
           </motion.div>
 
-          {/* main kısmına animasyon */}
           <motion.main
-            initial={{ opacity: 0 }} // Başlangıçta görünmez
-            animate={{ opacity: 1 }} // Sayfa yüklendiğinde görünür hale gelir
-            transition={{ duration: 0.5 }} // 0.3 saniye süren bir fade animasyonu
+            initial={{ opacity: 0 }} 
+            animate={{ opacity: 1 }} 
+            transition={{ duration: 0.5 }} 
           >
             <Routes>
               <Route path="/" element={<Home />} />
@@ -51,13 +50,13 @@ const App = () => {
               <Route path="/membership" element={<Membership />} />
               <Route path="/signIn" element={<SignIn />} />
               <Route path="/inspirationDetails/:id" element={<InspirationDetails />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </motion.main>
 
-          {/* FooterBottom için animasyon */}
           <motion.div
-            initial={{ opacity: 0, y: 50 }} // Başlangıçta görünmez ve aşağıda
-            whileInView={{ opacity: 1, y: 0 }} // Göründüğünde yukarı doğru kayar
+            initial={{ opacity: 0, y: 50 }} 
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
             <FooterBottom />

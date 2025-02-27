@@ -4,6 +4,7 @@ import apiClient from '../../api';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DotComponent from '../dotArea/dotArea';
 import styles from './inspirationDetails.module.css'; // Import CSS Module
+import Loading from '../Loading/Loading';
 
 function InspirationDetails() {
   const { id } = useParams();  
@@ -40,7 +41,7 @@ function InspirationDetails() {
   };
 
   if (!cardDetails) {
-    return <div>Loading...</div>;
+    return <Loading/>;
   }
 
   const totalPrice = cardDetails.furniture.reduce((total, item) => {
