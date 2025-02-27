@@ -12,7 +12,7 @@ const DotComponent = ({ area, handleAreaClick, isSelected, handleMoreInfoClick }
         onClick={() => handleAreaClick(area.title)}
       />
       {isSelected && (
-        <div className="area-details p-1 bg-white shadow" style={{ top: `${area.top - 40}%`, left: `${area.left + 10}%`, width: "150px" }}>
+        <div className="area-details p-1 bg-white shadow" style={{ top: `${area.top - 50}%`, left: `${area.left + 10}%` }}>
           <img src={area.image} alt={area.title} className="w-100 h-auto mb-1" />
           <h5 className="mb-1">{area.title}</h5>
           <p className="mb-1">Price: {area.price}</p>
