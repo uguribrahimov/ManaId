@@ -84,56 +84,56 @@
       "category": "Divan",
       "name": "Lüks Sofa",
       "price": "$500",
-      "image": "/assets/HomePage5-1.png"
+      "image": "/assets/HomePage5-1.jpg"
     },
     {
       "id": 2,
       "category": "Kreslo",
       "name": "Rahat Kreslo",
       "price": "$150",
-      "image": "/assets/HomPage5-2.png"
+      "image": "/assets/HomPage5-2.jpg"
     },
     {
       "id": 3,
       "category": "Masa",
       "name": "Müasir Masa",
       "price": "$300",
-      "image": "/assets/HomPage5-3.png"
+      "image": "/assets/HomPage5-3.jpg"
     },
     {
       "id": 4,
       "category": "Güzgü",
       "name": "Divar Güzgüsü",
       "price": "$100",
-      "image": "/assets/HomPage5-4.png"
+      "image": "/assets/HomPage5-4.jpg"
     },
     {
       "id": 5,
       "category": "Yataq Otağı",
       "name": "Kral Yatak",
       "price": "$800",
-      "image": "/assets/HomPage5-5.png"
+      "image": "/assets/HomPage5-5.jpg"
     },
     {
       "id": 6,
       "category": "Divan",
       "name": "Klassik Sofa",
       "price": "$450",
-      "image": "/assets/HomPage5-7.png"
+      "image": "/assets/HomPage5-7.jpg"
     },
     {
       "id": 7,
       "category": "Kreslo",
       "name": "Ofis Kreslosu",
       "price": "$200",
-      "image": "/assets/HomPage5-8.png"
+      "image": "/assets/HomPage5-8.jpg"
     },
     {
       "id": 8,
       "category": "Masa",
       "name": "Yemək Masası",
       "price": "$400",
-      "image": "/assets/HomPage5-9.png"
+      "image": "/assets/HomPage5-9.jpg"
     }
   ],
   "cartDetails": [
@@ -142,7 +142,7 @@
       "category": "Divan",
       "name": "Lüks Sofa",
       "price": "$500",
-      "image": "/assets/HomePage5-1.jpg",
+      "image": "/assets/HomePage5-1.png",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanan bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "120x80x40 sm",
       "color": "Ağ",
@@ -153,7 +153,7 @@
       "category": "Kreslo",
       "name": "Rahat Kreslo",
       "price": "$150",
-      "image": "/assets/HomPage5-2.jpg",
+      "image": "/assets/HomPage5-2.png",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "80x40x40 sm",
       "color": "Qara",
@@ -164,7 +164,7 @@
       "category": "Masa",
       "name": "Müasir Masa",
       "price": "$300",
-      "image": "/assets/HomPage5-3.jpg",
+      "image": "/assets/HomPage5-3.png",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "120x60x45 sm",
       "color": "Qəhvəyi",
@@ -175,7 +175,7 @@
       "category": "Güzgü",
       "name": "Divar Güzgüsü",
       "price": "$100",
-      "image": "/assets/HomPage5-4.jpg",
+      "image": "/assets/HomPage5-4.png",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "100x50 sm",
       "color": "Gümüş",
@@ -186,7 +186,7 @@
       "category": "Yataq Otağı",
       "name": "Kral Yataq",
       "price": "$800",
-      "image": "/assets/HomPage5-5.jpg",
+      "image": "/assets/HomPage5-5.png",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "200x180x60 sm",
       "color": "Boz",
@@ -197,7 +197,7 @@
       "category": "Dİvan",
       "name": "Klassik Sofa",
       "price": "$450",
-      "image": "/assets/HomPage5-7.jpg",
+      "image": "/assets/HomPage5-7.png",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "120x70x40 sm",
       "color": "Bej",
@@ -208,7 +208,7 @@
       "category": "Kreslo",
       "name": "Ofis Kreslosu",
       "price": "$200",
-      "image": "/assets/HomPage5-8.jpg",
+      "image": "/assets/HomPage5-8.png",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "90x60x60 sm",
       "color": "Qara",
@@ -219,7 +219,7 @@
       "category": "Masa",
       "name": "Yemək Masası",
       "price": "$400",
-      "image": "/assets/HomPage5-9.jpg",
+      "image": "/assets/HomPage5-9.png",
       "description": "Görkəmli memar Santiago Calatrava'nın monumental arxitektura formalarından ilham alınaraq hazırlanmış bu kofe masası həm forma, həm də funksiyada əsl incəsənət əsəridir. Zig-zag ayaqları, döyülmüş dəmirdən hazırlanmış kites şəkilli əsas forması ilə taxta üst hissəsi ilə tamamlanır. Möhtəşəmdir!",
       "dimension": "180x90x75 sm",
       "color": "Qəhvəyi",
@@ -326,43 +326,43 @@
    "inspiration": [
   {
     "id": 1,
-    "title": "Card 1",
-    "description": "Description for Card 1",
-    "category": "Modern",
-    "story": "This is the story for Card 1. It showcases modern design elements that blend functionality and style.",
+    "title": "Kart 1",
+    "description": "Kart 1 üçün təsvir",
+    "category": "Müasir",
+    "story": "Evinizi bəzəmək, rahatlıq və funksionallığı bir arada tapmaq hər zaman çətin olmuşdur. Amma artıq belə düşünməyə son! Yeni mebel kolleksiyamızla sizə ən son dizaynları, yüksək keyfiyyəti və müasir rahatlığı təqdim edirik. Hər biri ən yüksək standartlara uyğun hazırlanmış bu mebel parçaları, evinizdə həm gözəlliyi, həm də komfortu təmin edəcək. Mebel kolleksiyamızda istifadə edilən materiallar ekoloji cəhətdən təmiz və uzunömürlüdür. Mükəmməl istehsal prosesi ilə hər bir parça, uzun illər boyu istifadəyə uyğun olacaq şəkildə dizayn edilib. Həm funksional, həm də gözəl görünən mebellər, hər bir evə yaraşacaq incəlikdə hazırlanıb. Yalnız görkəmi ilə deyil, həm də rahatlığı ilə diqqət çəkən məhsullarımızla evinizdə hər anın tadını çıxarın. Yumuşaq oturacaq və bel dəstəyi ilə oturma guşəniz tam istədiyiniz kimi olacaq. Günün yorğunluğunu bu mebellərdə keçirərək, özünüzü tam rahat hiss edəcəksiniz. Müasir və minimalist dizaynlarla bəzədilmiş mebel dəstələrimiz, hər bir evə uyumlu olacaq şəkildə hazırlanıb. Mebelimiz yalnız funksional deyil, eyni zamanda estetik baxımdan da göz oxşayır. Evinizin hər küncünə müasir bir hava qatacaq bu kolleksiya ilə, evinizin atmosferini tamamilə dəyişdirə bilərsiniz.",
     "furniture": [
       {
-        "name": "Sofa",
+        "name": "Divan",
         "image": "/assets/furniture1.jpg",
-        "description": "Modern sofa with sleek design. Item Code: SF001",
+        "description": "Müasir divan, sadə dizayn. Məhsul Kodu: SF001",
         "price": "$500",
         "itemCode": "SF001"
       },
       {
-        "name": "Chair",
+        "name": "Stul",
         "image": "/assets/furniture2.jpg",
-        "description": "Stylish chair for living room. Item Code: CH002",
+        "description": "Salon üçün şık stul. Məhsul Kodu: CH002",
         "price": "$150",
         "itemCode": "CH002"
       },
       {
-        "name": "Table",
+        "name": "Cədvəl",
         "image": "/assets/furniture3.jpg",
-        "description": "Modern coffee table. Item Code: TB003",
+        "description": "Müasir kafe cədvəli. Məhsul Kodu: TB003",
         "price": "$200",
         "itemCode": "TB003"
       },
       {
-        "name": "Lamp",
+        "name": "Lampalar",
         "image": "/assets/furniture4.jpg",
-        "description": "Minimalist ambiance lamp. Item Code: LP004",
+        "description": "Minimalist abajur. Məhsul Kodu: LP004",
         "price": "$100",
         "itemCode": "LP004"
       },
       {
-        "name": "Bookshelf",
+        "name": "Kitab Rafı",
         "image": "/assets/furniture5.jpg",
-        "description": "Contemporary storage bookshelf. Item Code: BK005",
+        "description": "Müasir saxlama kitabı rafı. Məhsul Kodu: BK005",
         "price": "$250",
         "itemCode": "BK005"
       }
@@ -376,14 +376,14 @@
     "mainImages": "/assets/Rectangle 67.jpg",
     "mapAreas": [
       {
-        "title": "Sofa Area",
+        "title": "Divan Sahəsi",
         "image": "/assets/furniture1.jpg",
         "price": "$500",
         "top": 50,
         "left": 40
       },
       {
-        "title": "Lamp Area",
+        "title": "Lampalar Sahəsi",
         "image": "/assets/furniture4.jpg",
         "price": "$100",
         "top": 30,
@@ -393,43 +393,43 @@
   },
   {
     "id": 2,
-    "title": "Card 2",
-    "description": "Description for Card 2",
-    "category": "Classic",
-    "story": "This is the story for Card 2. A journey through timeless design elements that never go out of style.",
+    "title": "Kart 2",
+    "description": "Kart 2 üçün təsvir",
+    "category": "Klassik",
+    "story": "Evinizi bəzəmək, rahatlıq və funksionallığı bir arada tapmaq hər zaman çətin olmuşdur. Amma artıq belə düşünməyə son! Yeni mebel kolleksiyamızla sizə ən son dizaynları, yüksək keyfiyyəti və müasir rahatlığı təqdim edirik. Hər biri ən yüksək standartlara uyğun hazırlanmış bu mebel parçaları, evinizdə həm gözəlliyi, həm də komfortu təmin edəcək. Mebel kolleksiyamızda istifadə edilən materiallar ekoloji cəhətdən təmiz və uzunömürlüdür. Mükəmməl istehsal prosesi ilə hər bir parça, uzun illər boyu istifadəyə uyğun olacaq şəkildə dizayn edilib. Həm funksional, həm də gözəl görünən mebellər, hər bir evə yaraşacaq incəlikdə hazırlanıb. Yalnız görkəmi ilə deyil, həm də rahatlığı ilə diqqət çəkən məhsullarımızla evinizdə hər anın tadını çıxarın. Yumuşaq oturacaq və bel dəstəyi ilə oturma guşəniz tam istədiyiniz kimi olacaq. Günün yorğunluğunu bu mebellərdə keçirərək, özünüzü tam rahat hiss edəcəksiniz. Müasir və minimalist dizaynlarla bəzədilmiş mebel dəstələrimiz, hər bir evə uyumlu olacaq şəkildə hazırlanıb. Mebelimiz yalnız funksional deyil, eyni zamanda estetik baxımdan da göz oxşayır. Evinizin hər küncünə müasir bir hava qatacaq bu kolleksiya ilə, evinizin atmosferini tamamilə dəyişdirə bilərsiniz.",
     "furniture": [
       {
-        "name": "Armchair",
+        "name": "Divan kreslosu",
         "image": "/assets/furniture6.jpg",
-        "description": "Classic armchair with luxurious fabric. Item Code: AC006",
+        "description": "Lüks parça ilə klassik divan kreslosu. Məhsul Kodu: AC006",
         "price": "$300",
         "itemCode": "AC006"
       },
       {
-        "name": "Dining Table",
+        "name": "Yemək Cədvəli",
         "image": "/assets/furniture7.jpg",
-        "description": "Elegant dining table for gatherings. Item Code: DT007",
+        "description": "Toplantılar üçün elegant yemək cədvəli. Məhsul Kodu: DT007",
         "price": "$600",
         "itemCode": "DT007"
       },
       {
-        "name": "Mirror",
+        "name": "Güzgü",
         "image": "/assets/furniture8.jpg",
-        "description": "Vintage charm mirror. Item Code: MR008",
+        "description": "Vintage cazibədar güzgü. Məhsul Kodu: MR008",
         "price": "$150",
         "itemCode": "MR008"
       },
       {
-        "name": "Chest of Drawers",
+        "name": "Çekmecə dolabı",
         "image": "/assets/furniture9.jpg",
-        "description": "Classic bedroom chest of drawers. Item Code: CD009",
+        "description": "Klassik yataq otağı çekmecə dolabı. Məhsul Kodu: CD009",
         "price": "$400",
         "itemCode": "CD009"
       },
       {
-        "name": "Sideboard",
+        "name": "Yan şkaf",
         "image": "/assets/furniture10.jpg",
-        "description": "Rustic wooden sideboard. Item Code: SB010",
+        "description": "Rustik ağacdan yan şkaf. Məhsul Kodu: SB010",
         "price": "$350",
         "itemCode": "SB010"
       }
@@ -440,17 +440,17 @@
       "/assets/Rectangle 65.jpg",
       "/assets/Rectangle 66.jpg"
     ],
-    "mainImages": "/assets/Rectangle 64.jpg",
+    "mainImages": "/assets/Rectangle 67.jpg",
     "mapAreas": [
       {
-        "title": "Dining Table Area",
+        "title": "Yemək Cədvəli Sahəsi",
         "image": "/assets/furniture7.jpg",
         "price": "$600",
         "top": 55,
         "left": 35
       },
       {
-        "title": "Armchair Area",
+        "title": "Divan kreslosu Sahəsi",
         "image": "/assets/furniture6.jpg",
         "price": "$300",
         "top": 40,
@@ -460,45 +460,45 @@
   },
   {
     "id": 3,
-    "title": "Card 3",
-    "description": "Description for Card 3",
+    "title": "Kart 3",
+    "description": "Kart 3 üçün təsvir",
     "category": "Minimalist",
-    "story": "This is the story for Card 3. Featuring clean lines and simplicity that reflect minimalist principles.",
+    "story": "Evinizi bəzəmək, rahatlıq və funksionallığı bir arada tapmaq hər zaman çətin olmuşdur. Amma artıq belə düşünməyə son! Yeni mebel kolleksiyamızla sizə ən son dizaynları, yüksək keyfiyyəti və müasir rahatlığı təqdim edirik. Hər biri ən yüksək standartlara uyğun hazırlanmış bu mebel parçaları, evinizdə həm gözəlliyi, həm də komfortu təmin edəcək. Mebel kolleksiyamızda istifadə edilən materiallar ekoloji cəhətdən təmiz və uzunömürlüdür. Mükəmməl istehsal prosesi ilə hər bir parça, uzun illər boyu istifadəyə uyğun olacaq şəkildə dizayn edilib. Həm funksional, həm də gözəl görünən mebellər, hər bir evə yaraşacaq incəlikdə hazırlanıb. Yalnız görkəmi ilə deyil, həm də rahatlığı ilə diqqət çəkən məhsullarımızla evinizdə hər anın tadını çıxarın. Yumuşaq oturacaq və bel dəstəyi ilə oturma guşəniz tam istədiyiniz kimi olacaq. Günün yorğunluğunu bu mebellərdə keçirərək, özünüzü tam rahat hiss edəcəksiniz. Müasir və minimalist dizaynlarla bəzədilmiş mebel dəstələrimiz, hər bir evə uyumlu olacaq şəkildə hazırlanıb. Mebelimiz yalnız funksional deyil, eyni zamanda estetik baxımdan da göz oxşayır. Evinizin hər küncünə müasir bir hava qatacaq bu kolleksiya ilə, evinizin atmosferini tamamilə dəyişdirə bilərsiniz.",
     "furniture": [
       {
-        "name": "Coffee Table",
+        "name": "Divan",
         "image": "/assets/furniture11.jpg",
-        "description": "Simple and elegant coffee table. Item Code: CT011",
-        "price": "$200",
-        "itemCode": "CT011"
+        "description": "Minimalist dizaynlı divan. Məhsul Kodu: MF011",
+        "price": "$450",
+        "itemCode": "MF011"
       },
       {
-        "name": "Stool",
+        "name": "Stul",
         "image": "/assets/furniture12.jpg",
-        "description": "Minimalistic stool for interiors. Item Code: ST012",
-        "price": "$80",
-        "itemCode": "ST012"
+        "description": "Funkcional və estetik minimalist stul. Məhsul Kodu: MS012",
+        "price": "$120",
+        "itemCode": "MS012"
       },
       {
-        "name": "Desk",
+        "name": "Konsol",
         "image": "/assets/furniture13.jpg",
-        "description": "Minimalist desk for small office. Item Code: DK013",
-        "price": "$250",
-        "itemCode": "DK013"
+        "description": "Sadə, lakonik konsol. Məhsul Kodu: CL013",
+        "price": "$180",
+        "itemCode": "CL013"
       },
       {
-        "name": "Shelf",
+        "name": "Oturacaq",
         "image": "/assets/furniture14.jpg",
-        "description": "Wall-mounted clutter-free shelf. Item Code: SH014",
-        "price": "$150",
-        "itemCode": "SH014"
+        "description": "Minimalist tərzində oturacaq. Məhsul Kodu: OC014",
+        "price": "$100",
+        "itemCode": "OC014"
       },
       {
-        "name": "Lamp",
+        "name": "Raf",
         "image": "/assets/furniture15.jpg",
-        "description": "Sleek modern desk lamp. Item Code: LP015",
-        "price": "$100",
-        "itemCode": "LP015"
+        "description": "Minimalist metal raf. Məhsul Kodu: RM015",
+        "price": "$150",
+        "itemCode": "RM015"
       }
     ],
     "images": [
@@ -507,65 +507,66 @@
       "/assets/Rectangle 65.jpg",
       "/assets/Rectangle 66.jpg"
     ],
-    "mainImages": "/assets/Rectangle 64.jpg",
+    "mainImages": "/assets/Rectangle 67.jpg",
     "mapAreas": [
       {
-        "title": "Coffee Table Area",
+        "title": "Divan Sahəsi",
         "image": "/assets/furniture11.jpg",
-        "price": "$200",
-        "top": 60,
-        "left": 50
+        "price": "$450",
+        "top": 50,
+        "left": 40
       },
       {
-        "title": "Desk Area",
-        "image": "/assets/furniture13.jpg",
-        "price": "$250",
-        "top": 20,
-        "left": 30
+        "title": "Stul Sahəsi",
+        "image": "/assets/furniture12.jpg",
+        "price": "$120",
+        "top": 30,
+        "left": 60
       }
     ]
   },
+
   {
     "id": 4,
-    "title": "Card 4",
-    "description": "Description for Card 4",
-    "category": "Rustic",
-    "story": "This is the story for Card 4. A celebration of earthy materials and rustic charm that brings nature indoors.",
+    "title": "Kart 4",
+    "description": "Kart 4 üçün təsvir",
+    "category": "Klassik",
+    "story": "Evinizi bəzəmək, rahatlıq və funksionallığı bir arada tapmaq hər zaman çətin olmuşdur. Amma artıq belə düşünməyə son! Yeni mebel kolleksiyamızla sizə ən son dizaynları, yüksək keyfiyyəti və müasir rahatlığı təqdim edirik. Hər biri ən yüksək standartlara uyğun hazırlanmış bu mebel parçaları, evinizdə həm gözəlliyi, həm də komfortu təmin edəcək. Mebel kolleksiyamızda istifadə edilən materiallar ekoloji cəhətdən təmiz və uzunömürlüdür. Mükəmməl istehsal prosesi ilə hər bir parça, uzun illər boyu istifadəyə uyğun olacaq şəkildə dizayn edilib. Həm funksional, həm də gözəl görünən mebellər, hər bir evə yaraşacaq incəlikdə hazırlanıb. Yalnız görkəmi ilə deyil, həm də rahatlığı ilə diqqət çəkən məhsullarımızla evinizdə hər anın tadını çıxarın. Yumuşaq oturacaq və bel dəstəyi ilə oturma guşəniz tam istədiyiniz kimi olacaq. Günün yorğunluğunu bu mebellərdə keçirərək, özünüzü tam rahat hiss edəcəksiniz. Müasir və minimalist dizaynlarla bəzədilmiş mebel dəstələrimiz, hər bir evə uyumlu olacaq şəkildə hazırlanıb. Mebelimiz yalnız funksional deyil, eyni zamanda estetik baxımdan da göz oxşayır. Evinizin hər küncünə müasir bir hava qatacaq bu kolleksiya ilə, evinizin atmosferini tamamilə dəyişdirə bilərsiniz.",
     "furniture": [
       {
-        "name": "Wooden Chair",
+        "name": "Yastıq",
         "image": "/assets/furniture16.jpg",
-        "description": "Rustic handcrafted wooden chair. Item Code: WC016",
-        "price": "$100",
-        "itemCode": "WC016"
+        "description": "Rahat oturmaq üçün ideal yastıq. Məhsul Kodu: PY016",
+        "price": "$50",
+        "itemCode": "PY016"
       },
       {
-        "name": "Rustic Table",
+        "name": "Çarpayı",
         "image": "/assets/furniture17.jpg",
-        "description": "Sturdy reclaimed wood table. Item Code: RT017",
-        "price": "$300",
-        "itemCode": "RT017"
+        "description": "Klassik dizaynlı rahat çarpayı. Məhsul Kodu: BD017",
+        "price": "$550",
+        "itemCode": "BD017"
       },
       {
-        "name": "Cabinet",
+        "name": "Çəkmece",
         "image": "/assets/furniture18.jpg",
-        "description": "Rustic storage cabinet. Item Code: CB018",
-        "price": "$250",
-        "itemCode": "CB018"
-      },
-      {
-        "name": "Floor Lamp",
-        "image": "/assets/furniture19.jpg",
-        "description": "Vintage industrial floor lamp. Item Code: FL019",
+        "description": "Müasir dizaynlı çekmece. Məhsul Kodu: CD018",
         "price": "$150",
-        "itemCode": "FL019"
+        "itemCode": "CD018"
       },
       {
-        "name": "Armchair",
-        "image": "/assets/furniture20.jpg",
-        "description": "Comfortable natural armchair. Item Code: AC020",
+        "name": "Yan Şkaf",
+        "image": "/assets/furniture19.jpg",
+        "description": "Klassik stil yan şkaf. Məhsul Kodu: YS019",
         "price": "$200",
-        "itemCode": "AC020"
+        "itemCode": "YS019"
+      },
+      {
+        "name": "Stol",
+        "image": "/assets/furniture20.jpg",
+        "description": "Dizaynlı iş stolu. Məhsul Kodu: WS020",
+        "price": "$250",
+        "itemCode": "WS020"
       }
     ],
     "images": [
@@ -574,65 +575,65 @@
       "/assets/Rectangle 65.jpg",
       "/assets/Rectangle 66.jpg"
     ],
-    "mainImages": "/assets/Rectangle 64.jpg",
+    "mainImages": "/assets/Rectangle 67.jpg",
     "mapAreas": [
       {
-        "title": "Wooden Chair Area",
-        "image": "/assets/furniture16.jpg",
-        "price": "$100",
-        "top": 65,
-        "left": 45
+        "title": "Çarpayı Sahəsi",
+        "image": "/assets/furniture17.jpg",
+        "price": "$550",
+        "top": 45,
+        "left": 50
       },
       {
-        "title": "Floor Lamp Area",
-        "image": "/assets/furniture19.jpg",
-        "price": "$150",
-        "top": 25,
-        "left": 55
+        "title": "Stol Sahəsi",
+        "image": "/assets/furniture20.jpg",
+        "price": "$250",
+        "top": 30,
+        "left": 75
       }
     ]
   },
   {
     "id": 5,
-    "title": "Card 5",
-    "description": "Description for Card 5",
-    "category": "Modern",
-    "story": "This is the story for Card 5. Blending cutting-edge design with functionality for a contemporary lifestyle.",
+    "title": "Kart 5",
+    "description": "Kart 5 üçün təsvir",
+    "category": "Minimalist",
+    "story": "Evinizi bəzəmək, rahatlıq və funksionallığı bir arada tapmaq hər zaman çətin olmuşdur. Amma artıq belə düşünməyə son! Yeni mebel kolleksiyamızla sizə ən son dizaynları, yüksək keyfiyyəti və müasir rahatlığı təqdim edirik. Hər biri ən yüksək standartlara uyğun hazırlanmış bu mebel parçaları, evinizdə həm gözəlliyi, həm də komfortu təmin edəcək. Mebel kolleksiyamızda istifadə edilən materiallar ekoloji cəhətdən təmiz və uzunömürlüdür. Mükəmməl istehsal prosesi ilə hər bir parça, uzun illər boyu istifadəyə uyğun olacaq şəkildə dizayn edilib. Həm funksional, həm də gözəl görünən mebellər, hər bir evə yaraşacaq incəlikdə hazırlanıb. Yalnız görkəmi ilə deyil, həm də rahatlığı ilə diqqət çəkən məhsullarımızla evinizdə hər anın tadını çıxarın. Yumuşaq oturacaq və bel dəstəyi ilə oturma guşəniz tam istədiyiniz kimi olacaq. Günün yorğunluğunu bu mebellərdə keçirərək, özünüzü tam rahat hiss edəcəksiniz. Müasir və minimalist dizaynlarla bəzədilmiş mebel dəstələrimiz, hər bir evə uyumlu olacaq şəkildə hazırlanıb. Mebelimiz yalnız funksional deyil, eyni zamanda estetik baxımdan da göz oxşayır. Evinizin hər küncünə müasir bir hava qatacaq bu kolleksiya ilə, evinizin atmosferini tamamilə dəyişdirə bilərsiniz.",
     "furniture": [
       {
-        "name": "Sofa",
+        "name": "Oturacaq",
         "image": "/assets/furniture21.jpg",
-        "description": "A modern sofa designed for comfort and style. Item Code: SF021",
-        "price": "$700",
-        "itemCode": "SF021"
-      },
-      {
-        "name": "Coffee Table",
-        "image": "/assets/furniture22.jpg",
-        "description": "A stylish and functional coffee table. Item Code: CT022",
-        "price": "$200",
-        "itemCode": "CT022"
-      },
-      {
-        "name": "Bookshelf",
-        "image": "/assets/furniture23.jpg",
-        "description": "A modern bookshelf with ample storage. Item Code: BK023",
-        "price": "$250",
-        "itemCode": "BK023"
-      },
-      {
-        "name": "Dining Chair",
-        "image": "/assets/furniture24.jpg",
-        "description": "A chic dining chair perfect for any dining room. Item Code: DC024",
+        "description": "Minimalist üslubda rahat oturacaq. Məhsul Kodu: OC021",
         "price": "$150",
-        "itemCode": "DC024"
+        "itemCode": "OC021"
       },
       {
-        "name": "Wall Art",
+        "name": "Yemək Stolu",
+        "image": "/assets/furniture22.jpg",
+        "description": "Sadə və şık yemək stolu. Məhsul Kodu: ST022",
+        "price": "$300",
+        "itemCode": "ST022"
+      },
+      {
+        "name": "Raf",
+        "image": "/assets/furniture23.jpg",
+        "description": "Minimalist metal raf. Məhsul Kodu: MR023",
+        "price": "$120",
+        "itemCode": "MR023"
+      },
+      {
+        "name": "Güzgü",
+        "image": "/assets/furniture24.jpg",
+        "description": "Minimalist dizaynda güzgü. Məhsul Kodu: MG024",
+        "price": "$80",
+        "itemCode": "MG024"
+      },
+      {
+        "name": "Çekmece",
         "image": "/assets/furniture25.jpg",
-        "description": "A contemporary piece of wall art to add personality to your home. Item Code: WA025",
-        "price": "$100",
-        "itemCode": "WA025"
+        "description": "Sadə çəkmece. Məhsul Kodu: CD025",
+        "price": "$140",
+        "itemCode": "CD025"
       }
     ],
     "images": [
@@ -641,65 +642,65 @@
       "/assets/Rectangle 65.jpg",
       "/assets/Rectangle 66.jpg"
     ],
-    "mainImages": "/assets/Rectangle 64.jpg",
+    "mainImages": "/assets/Rectangle 67.jpg",
     "mapAreas": [
       {
-        "title": "Sofa Area",
-        "image": "/assets/furniture21.jpg",
-        "price": "$700",
-        "top": 50,
-        "left": 40
+        "title": "Yemək Stolu Sahəsi",
+        "image": "/assets/furniture22.jpg",
+        "price": "$300",
+        "top": 40,
+        "left": 50
       },
       {
-        "title": "Coffee Table Area",
-        "image": "/assets/furniture22.jpg",
-        "price": "$200",
-        "top": 60,
-        "left": 30
+        "title": "Raf Sahəsi",
+        "image": "/assets/furniture23.jpg",
+        "price": "$120",
+        "top": 30,
+        "left": 70
       }
     ]
   },
   {
     "id": 6,
-    "title": "Card 6",
-    "description": "Description for Card 6",
-    "category": "Classic",
-    "story": "This is the story for Card 6. A timeless collection inspired by classic designs that stand the test of time.",
+    "title": "Kart 6",
+    "description": "Kart 6 üçün təsvir",
+    "category": "Müasir",
+    "story": "Evinizi bəzəmək, rahatlıq və funksionallığı bir arada tapmaq hər zaman çətin olmuşdur. Amma artıq belə düşünməyə son! Yeni mebel kolleksiyamızla sizə ən son dizaynları, yüksək keyfiyyəti və müasir rahatlığı təqdim edirik. Hər biri ən yüksək standartlara uyğun hazırlanmış bu mebel parçaları, evinizdə həm gözəlliyi, həm də komfortu təmin edəcək. Mebel kolleksiyamızda istifadə edilən materiallar ekoloji cəhətdən təmiz və uzunömürlüdür. Mükəmməl istehsal prosesi ilə hər bir parça, uzun illər boyu istifadəyə uyğun olacaq şəkildə dizayn edilib. Həm funksional, həm də gözəl görünən mebellər, hər bir evə yaraşacaq incəlikdə hazırlanıb. Yalnız görkəmi ilə deyil, həm də rahatlığı ilə diqqət çəkən məhsullarımızla evinizdə hər anın tadını çıxarın. Yumuşaq oturacaq və bel dəstəyi ilə oturma guşəniz tam istədiyiniz kimi olacaq. Günün yorğunluğunu bu mebellərdə keçirərək, özünüzü tam rahat hiss edəcəksiniz. Müasir və minimalist dizaynlarla bəzədilmiş mebel dəstələrimiz, hər bir evə uyumlu olacaq şəkildə hazırlanıb. Mebelimiz yalnız funksional deyil, eyni zamanda estetik baxımdan da göz oxşayır. Evinizin hər küncünə müasir bir hava qatacaq bu kolleksiya ilə, evinizin atmosferini tamamilə dəyişdirə bilərsiniz.",
     "furniture": [
       {
-        "name": "Dining Table",
+        "name": "Divan",
         "image": "/assets/furniture26.jpg",
-        "description": "A classic dining table for memorable meals. Item Code: DT026",
-        "price": "$800",
-        "itemCode": "DT026"
+        "description": "Müasir divan. Məhsul Kodu: MD026",
+        "price": "$700",
+        "itemCode": "MD026"
       },
       {
-        "name": "Chandelier",
+        "name": "Masa",
         "image": "/assets/furniture27.jpg",
-        "description": "An elegant chandelier to light up your dining room. Item Code: CH027",
-        "price": "$500",
-        "itemCode": "CH027"
+        "description": "Minimalist masa. Məhsul Kodu: MS027",
+        "price": "$450",
+        "itemCode": "MS027"
       },
       {
-        "name": "Armchair",
+        "name": "Şkaf",
         "image": "/assets/furniture28.jpg",
-        "description": "A classic armchair for comfort and style. Item Code: AC028",
-        "price": "$300",
-        "itemCode": "AC028"
-      },
-      {
-        "name": "Sideboard",
-        "image": "/assets/furniture29.jpg",
-        "description": "A luxurious sideboard for your living room. Item Code: SB029",
+        "description": "Sadə şkaf. Məhsul Kodu: SC028",
         "price": "$400",
-        "itemCode": "SB029"
+        "itemCode": "SC028"
       },
       {
-        "name": "Mirror",
-        "image": "/assets/furniture30.jpg",
-        "description": "A classic mirror that complements any decor. Item Code: MR030",
+        "name": "Raf",
+        "image": "/assets/furniture29.jpg",
+        "description": "Müasir metal raf. Məhsul Kodu: MR029",
         "price": "$150",
-        "itemCode": "MR030"
+        "itemCode": "MR029"
+      },
+      {
+        "name": "Kreslo",
+        "image": "/assets/furniture30.jpg",
+        "description": "Komfortlu kreslo. Məhsul Kodu: KF030",
+        "price": "$350",
+        "itemCode": "KF030"
       }
     ],
     "images": [
@@ -708,24 +709,25 @@
       "/assets/Rectangle 65.jpg",
       "/assets/Rectangle 66.jpg"
     ],
-    "mainImages": "/assets/Rectangle 64.jpg",
+    "mainImages": "/assets/Rectangle 67.jpg",
     "mapAreas": [
       {
-        "title": "Dining Table Area",
+        "title": "Divan Sahəsi",
         "image": "/assets/furniture26.jpg",
-        "price": "$800",
-        "top": 50,
-        "left": 40
+        "price": "$700",
+        "top": 35,
+        "left": 45
       },
       {
-        "title": "Chandelier Area",
+        "title": "Masa Sahəsi",
         "image": "/assets/furniture27.jpg",
-        "price": "$500",
-        "top": 20,
+        "price": "$450",
+        "top": 50,
         "left": 60
       }
     ]
   }
+  
 ]
 
 

@@ -1,0 +1,61 @@
+
+.searchContainer {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .inputWrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .searchInput {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 40px 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .searchInput:focus {
+    border-color: #1890ff;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Mobil uyumlu hale getirmek için */
+  @media (max-width: 768px) {
+    .searchInput {
+      font-size: 14px;
+      padding: 8px 35px 8px 12px;
+    }
+  
+    .searchIcon {
+      right: 10px;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .searchInput {
+      font-size: 13px;
+      padding: 7px 30px 7px 10px;
+    }
+  
+    .searchIcon {
+      right: 8px;
+      font-size: 14px;
+    }
+  }
+  

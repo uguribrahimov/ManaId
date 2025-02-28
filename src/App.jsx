@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion'; 
-import Headers from './components/Header';
+import Headers from './components/Headers/Header';
 import Home from './pages/Home';
 import About from './pages/About/About';
 import CartDetails from './components/CardDetails/CardDetails';
