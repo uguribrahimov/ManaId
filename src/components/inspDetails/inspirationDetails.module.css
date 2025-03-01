@@ -1,13 +1,11 @@
-/* Genel Stiller */
 body {
-  font-size: 14px; /* Genel font boyutunu küçült */
+  font-size: 14px; 
 }
 
 .container {
   max-width: 1200px;
 }
 
-/* Büyük Fotoğraf */
 .listUnstyled {
   padding: 0;
   margin: 0;
@@ -92,6 +90,12 @@ body {
   
   .object-cover {
     object-fit: cover; 
+  }
+  .storyText {
+    font-size: 18px; 
+    line-height: 1.6; 
+    white-space: pre-line; 
+    margin-bottom: 20px;
   }
   
   .dot {

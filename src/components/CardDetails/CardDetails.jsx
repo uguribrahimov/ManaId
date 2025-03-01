@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import apiClient from "../../api";
 import AnotherProduct from "../AnotherPruduct/anotherPruduct";
 import Loading from "../Loading/Loading";
-import ToastNotification, { showToast } from "../Toast"; // Toast bileşenini ve fonksiyonunu ekleyin
+import ToastNotification, { showToast } from "../Toast"; 
 
 const CartDetails = () => {
   const { id } = useParams();
@@ -37,7 +37,7 @@ const CartDetails = () => {
 
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
-    showToast("Səbətə əlavə olundu!", "success"); // Toast bildirimi göster
+    showToast("Səbətə əlavə olundu!", "success"); 
   };
 
   if (!product) {
@@ -46,7 +46,6 @@ const CartDetails = () => {
 
   return (
     <div className="container py-5">
-      {/* ToastNotification bileşenini ekleyin */}
       <ToastNotification />
       <div className="row mb-4">
         <div className="col-md-6 mb-3 mb-md-0">
@@ -59,19 +58,19 @@ const CartDetails = () => {
         <div className="col-md-6">
           <h2 className="text-uppercase">{product.name}</h2>
           <div className="mb-3">
-            <h3>Product Description</h3>
+            <h3>Məhsul təsviri</h3>
             <p>{product.description}</p>
           </div>
           <div className="mb-3">
-            <h3>Dimension</h3>
+            <h3>Ölçü</h3>
             <p>{product.dimension}</p>
           </div>
           <div className="mb-3">
-            <h3>Color</h3>
+            <h3>Rəng</h3>
             <p>{product.color}</p>
           </div>
           <div className="mb-3">
-            <h3>Retail</h3>
+            <h3>Qiymət</h3>
             <p>{product.price}</p>
           </div>
           <button
@@ -84,7 +83,7 @@ const CartDetails = () => {
       </div>
 
       <div className="relatedProducts">
-        <h3 className="text-center mb-4">Another Product</h3>
+        <h3 className="text-center mb-4">Digər Məhsullar</h3>
         <div className="row">
           {relatedProducts.map((item) => (
             <div key={item.id} className="col-md-3 mb-3">

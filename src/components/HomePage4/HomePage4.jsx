@@ -3,7 +3,7 @@ import { Card, Button, Input } from "antd";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./HomePage4.module.css";
 import { useNavigate } from "react-router-dom";
-import apiClient from "../../api"; // Axios interceptor'ü içeren API istemcisi
+import apiClient from "../../api"; 
 
 const { Search } = Input;
 
@@ -49,12 +49,11 @@ const HomePage4 = () => {
 
   return (
     <div className={`container py-4 ${styles.furniturePage}`}>
-      {/* Responsive Header Section */}
       <header className={`${styles.header}`}>
         <div className={styles.headerLeft}>
-          <h1 className={`${styles.logo}`}>Mana Furnitures</h1>
+          <h1 className={`${styles.logo}`}>Mana Mebelləri</h1>
           <div className={`${styles.filterButtons}`}>
-            {["ALL", "Divan", "Masa", "Kreslo", "Güzgü", "Yataq otağı"].map((category) => (
+            {["ALL", "Suvenir", "Stul", "Kreslo", "Güzgü", "Yataq"].map((category) => (
               <Button
                 key={category}
                 type="button"
@@ -68,7 +67,7 @@ const HomePage4 = () => {
         </div>
         <div className={styles.headerRight}>
           <Search
-            placeholder="Search furniture"
+            placeholder="Mebel axtar"
             allowClear
             onSearch={handleSearch}
             className={styles.searchInput}
@@ -76,7 +75,6 @@ const HomePage4 = () => {
         </div>
       </header>
 
-      {/* Furniture Cards Section */}
       <div className="row g-4">
         {filteredData.map((item) => (
           <div className="col-sm-6 col-md-4 col-lg-3" key={item.id}>

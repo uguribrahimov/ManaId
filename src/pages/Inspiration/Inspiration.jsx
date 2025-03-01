@@ -51,8 +51,7 @@ if (cardsData.length === 0) {
 
   return (
     <div className="container mt-5">
-      {/* Başlık ve Filtreler */}
-      <h2 className="page-title">Inspiration</h2>
+      <h2 className="page-title">Kateqoriya</h2>
       <div className="category-buttons">
         {categories.map((category) => (
           <button
@@ -65,12 +64,10 @@ if (cardsData.length === 0) {
         ))}
       </div>
 
-      {/* Kartlar */}
       <div className="row row-cols-1 row-cols-md-3 g-4">
         {filteredData.map((card) => (
           <div className="col mb-4" key={card.id}>
             <div className="h-100 card-container">
-              {/* Büyük Resim */}
               <div className="image-container">
                 <img
                   src={card.images[0]}
@@ -78,11 +75,10 @@ if (cardsData.length === 0) {
                   alt="Large"
                 />
                 <button className="view-more-btn" onClick={() => handleViewMore(card.id)}>
-                  View More
+                  Daha Detaylı
                 </button>
               </div>
 
-              {/* Küçük Resimler */}
               <div className="row g-2">
                 {card.images.slice(1).map((image, index) => (
                   <div className="col-4" key={index}>
@@ -95,7 +91,6 @@ if (cardsData.length === 0) {
                 ))}
               </div>
 
-              {/* Kart Gövdesi */}
               <div className="card-body">
                 <h5 className="card-title">{card.title}</h5>
                 <p className="card-text">{card.description}</p>

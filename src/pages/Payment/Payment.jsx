@@ -10,14 +10,14 @@ const Payment = () => {
       <div className="row">
         <div className="col-lg-8">
           <div className="bg-light p-4 rounded shadow-sm mb-4">
-            <h2>Payment Details</h2>
+            <h2>Ödəniş detalları</h2>
             <div className="mb-3">
-              <label htmlFor="cardNumber" className="form-label">Card Number:</label>
+              <label htmlFor="cardNumber" className="form-label">Kart nömrəsi:</label>
               <input type="text" id="cardNumber" name="cardNumber" className="form-control" placeholder="(ex: 2212 - 7747 - 3324 - 4456)" />
             </div>
             <div className="row mb-3">
               <div className="col-md-6 mb-3 mb-md-0">
-                <label htmlFor="expDate" className="form-label">Expiration Date:</label>
+                <label htmlFor="expDate" className="form-label">Son istifadə tarixi:</label>
                 <input type="text" id="expDate" name="expDate" className="form-control" placeholder="MM/YY" />
               </div>
               <div className="col-md-6">
@@ -29,12 +29,12 @@ const Payment = () => {
         </div>
         <div className="col-lg-4">
           <div className="bg-white p-4 rounded shadow-sm">
-            <h2>Summary</h2>
+            <h2>Xülasə</h2>
             <div className="d-flex justify-content-between mb-4">
-              <span>Total:</span>
+              <span>Ümumi:</span>
               <span>{totalPrice.toFixed(2)} USD</span>
             </div>
-            <button className="btn btn-dark w-100">Pay</button>
+            <button className="btn btn-dark w-100">Ödə</button>
           </div>
         </div>
       </div>

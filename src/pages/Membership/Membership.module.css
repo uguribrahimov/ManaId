@@ -17,7 +17,7 @@
 .description {
   font-size: 18px;
   margin-bottom: 30px;
-  width: 80%; /* Make it more responsive */
+  width: 80%;
   margin: 0 auto;
   color: #959FA3;
 }
@@ -44,7 +44,6 @@
   height: 100%;
 }
 
-/* "Get Started" Butonu */
 .selectButton {
   margin-top: 10px;
   margin-bottom: 15px;
@@ -57,7 +56,6 @@
   border-radius: 5px;
 }
 
-/* Benefit Listesi */
 .benefits {
   list-style-type: none;
   padding: 0;
@@ -71,23 +69,22 @@
   color: #333;
 }
 
-/* Responsive adjustments */
 @media (max-width: 767px) {
   .title {
-    font-size: 36px; /* Smaller title for smaller screens */
+    font-size: 36px; 
   }
 
   .description {
-    width: 90%; /* Adjust width for smaller screens */
+    width: 90%;
   }
 }
 
 @media (max-width: 480px) {
   .selectButton {
-    font-size: 12px; /* Smaller button text for mobile */
+    font-size: 12px; 
   }
 
   .planCard {
-    padding: 15px; /* Reduce padding on smaller devices */
+    padding: 15px; 
   }
 }

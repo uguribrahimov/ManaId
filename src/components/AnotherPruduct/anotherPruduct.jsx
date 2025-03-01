@@ -11,7 +11,7 @@ const RelatedProductCard = ({ product }) => {
         <p className="card-price">{product.price}</p>
         <p className="card-category">{product.category}</p>
         <Link to={`/cartDetails/${product.id}`} className="details-button">
-          See Details
+          Detaylı bax
         </Link>
       </div>
     </div>

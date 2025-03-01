@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import apiClient from '../../api';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DotComponent from '../dotArea/dotArea';
-import styles from './inspirationDetails.module.css'; // Import CSS Module
+import styles from './inspirationDetails.module.css'; 
 import Loading from '../Loading/Loading';
 
 function InspirationDetails() {
@@ -74,12 +74,12 @@ function InspirationDetails() {
         <div className="col-md-8">
           <h2>{cardDetails.title}</h2>
           <p>{cardDetails.description}</p>
-          <h4>Story</h4>
-          <p>{cardDetails.story}</p>
+          <h4>Təsvir</h4>
+          <p className={styles.storyText}>{cardDetails.story}</p> 
         </div>
 
         <div className="col-md-4">
-          <h3>Furniture</h3>
+          <h3>Mebellər</h3>
           <ul className={`list-unstyled ${styles.listUnstyled}`}>
             {cardDetails.furniture.map((item, index) => (
               <li key={index} className={`${styles.listItem} mb-3 d-flex align-items-center`}>
@@ -94,13 +94,13 @@ function InspirationDetails() {
                   <h5>{item.name}</h5>
                   <p>{item.description}</p>
                 </div>
-                <p className={`${styles.textPrimary} ms-auto`}>{item.price}</p> {/* Price is aligned to the right */}
+                <p className={`${styles.textPrimary} ms-auto`}>{item.price}</p> 
               </li>
             ))}
           </ul>
-          <div className="mt-4">
+          <div className="mt-4 mb-4">
                    <h4 className="fw-bold d-flex justify-content-between">
-                   <span>Total</span>
+                   <span>Ümumi</span>
                    <span> ${totalPrice.toFixed(2)}</span>
                   </h4>
                    <button onClick={handleClick} className="btn btn-dark w-100">Order</button>

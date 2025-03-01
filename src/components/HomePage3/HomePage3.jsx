@@ -32,10 +32,9 @@ const HomePage3 = () => {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <h1 className={styles.headerTitle}>Furniture Categories</h1>
+        <h1 className={styles.headerTitle}>Mebel Kateqoriyaları</h1>
         <p className={styles.headerDescription}>
-          We provide excessive benefits for members who subscribe <br />
-          every month with mana id, because.
+        Biz, hər ay mana ID ilə abunə olan üzvlərə həddindən artıq faydalar təqdim edirik
         </p>
       </header>
 

@@ -8,7 +8,6 @@ const FooterBottom = () => {
     <footer className={`bg-dark text-light py-4 ${styles.footerContainer}`}>
       <div className="container">
         <div className="row d-flex justify-content-between">
-          {/* Sol hissə: Mana.id və bülleten formu */}
           <div className="col-md-4 mb-3 mb-md-0 d-flex flex-column justify-content-between">
             <div>
               <h5 className={`${styles.footerTitle} ${styles.smallText}`}>Mana.id</h5>

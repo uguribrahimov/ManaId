@@ -26,15 +26,15 @@ const Membership = () => {
   }, []);
 
   if (loading) {
-    return <Loading />; // API yüklenirken Loading bileşeni göster
+    return <Loading />; 
   }
 
   return (
     <div className={styles.membershipContainer}>
       <div className={styles.header}>
-        <h1 className={styles.title}>Choose Your Plan</h1>
+        <h1 className={styles.title}>Planını Seç</h1>
         <p className={styles.description}>
-          Select the best plan that fits your needs and start your journey today!
+        Sənin ehtiyaclarına ən uyğun planı seç və bu gün yola başla!
         </p>
       </div>
 

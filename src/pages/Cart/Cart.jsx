@@ -31,7 +31,7 @@ const Cart = () => {
       <div className="row">
         <div className="col-lg-8">
           <div className="bg-light p-4 rounded shadow-sm">
-            <h2 className="mb-4">Cart Items</h2>
+            <h2 className="mb-4">Səbət</h2>
             {cartItems.length > 0 ? (
               cartItems.map((item) => (
                 <div key={item.id} className="row align-items-center mb-4 p-3 border rounded">
@@ -60,18 +60,18 @@ const Cart = () => {
                 </div>
               ))
             ) : (
-              <p>Your cart is empty.</p>
+              <p>Sizin səbətiniz boşdur.</p>
             )}
           </div>
         </div>
         <div className="col-lg-4">
           <div className="bg-white p-4 rounded shadow-sm">
-            <h2 className="mb-4">Summary</h2>
+            <h2 className="mb-4">Xülasə</h2>
             <div className="d-flex justify-content-between mb-4">
-              <span>Total:</span>
+              <span>Ümumi:</span>
               <span>{totalPrice.toFixed(2)} USD</span>
             </div>
-            <button className="btn btn-dark w-100" onClick={handleCheckout}>Payment</button>
+            <button className="btn btn-dark w-100" onClick={handleCheckout}>Ödəniş et</button>
           </div>
         </div>
       </div>

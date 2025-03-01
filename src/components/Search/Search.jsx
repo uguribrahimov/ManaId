@@ -4,7 +4,7 @@ import { FaSearch } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { selectCartItems, fetchCartItems } from "../../Store/SearchSlice"; 
 import { useNavigate } from "react-router-dom";
-import styles from "./Search.module.css"; // CSS module import
+import styles from "./Search.module.css"; 
 
 const SearchInput = ({ placeholder = "Search...", onSearch }) => {
   const [searchText, setSearchText] = useState("");

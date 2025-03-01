@@ -1,25 +1,24 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import apiClient from '../api'; // API istemcisini içe aktar
+import apiClient from '../api'; 
 
-// API'den cart verilerini asenkron olarak çek
 export const fetchCartItems = createAsyncThunk(
   'search/fetchCartItems',
   async () => {
     try {
-      const response = await apiClient.get('/cartDetails'); // /cardDetails'den veriyi çek
+      const response = await apiClient.get('/cartDetails'); 
       return response;
       console.log(response);
       
     } catch (error) {
       console.error('Kart detayları alınırken hata oluştu:', error);
-      return []; // Hata durumunda boş array döndür
+      return [];
     }
   }
 );
 
 const searchSlice = createSlice({
   name: 'search',
-  initialState: { cartItems: [], searchText: '' }, // Başlangıçta boş state
+  initialState: { cartItems: [], searchText: '' },
   reducers: {
     setSearchText: (state, action) => {
       state.searchText = action.payload;
@@ -27,7 +26,7 @@ const searchSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder.addCase(fetchCartItems.fulfilled, (state, action) => {
-      state.cartItems = action.payload; // API'den gelen veriyi `cartItems` olarak ayarla
+      state.cartItems = action.payload; 
     });
   },
 });

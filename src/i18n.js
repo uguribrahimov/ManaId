@@ -4,9 +4,9 @@ import HttpApi from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 i18n
-  .use(HttpApi) // JSON dil fayllarını yükləmək üçün
-  .use(LanguageDetector) // İstifadəçinin brauzer dilini aşkar etmək üçün
-  .use(initReactI18next) // React-i18next inteqrasiyası üçün
+  .use(HttpApi) 
+  .use(LanguageDetector) 
+  .use(initReactI18next)
   .init({
     supportedLngs: ["en", "az"],
     fallbackLng: "en",
@@ -15,7 +15,7 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: "/locales/{{lng}}/translation.json", // JSON faylların yolu
+      loadPath: "/locales/{{lng}}/translation.json", 
     },
   });
 

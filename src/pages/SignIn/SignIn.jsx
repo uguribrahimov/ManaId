@@ -39,9 +39,9 @@ const SignIn = () => {
 </Slider>
 
         </div>
-        <div className="col-lg-6 d-flex flex-column align-items-center bg-white p-3 rounded  h-75" style={{ fontSize: '14px' }}>
+        <div className="col-lg-6 d-flex flex-column align-items-center bg-white p-3 rounded  h-100" style={{ fontSize: '14px' }}>
           <div className="text-center mb-2 w-100">
-            <img src="/assets/image.jpg" className="mb-2 mx-auto d-block" alt="Logo" style={{ width: '80px' }} />
+            <img src="/assets/image.png" className="mb-2 mx-auto d-block" alt="Logo" style={{ width: '80px' }} />
             <h3>Welcome to Mana.id</h3>
             <p>the best interior consultant on earth</p>
           </div>

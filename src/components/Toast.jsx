@@ -26,7 +26,6 @@ const ToastNotification = () => {
   );
 };
 
-// Toast fonksiyonlarını dışa aktar
 export const showToast = (message, type = "success") => {
   switch (type) {
     case "success":

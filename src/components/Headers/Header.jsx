@@ -48,25 +48,25 @@ const Headers = () => {
         <div className={styles.drawerContent}>
           <ul className="list-unstyled">
             <li className={styles.drawerListItem}>
-              <Link to="/" onClick={toggleMenu} className={styles.drawerLink}>Home</Link>
+              <Link to="/" onClick={toggleMenu} className={styles.drawerLink}>Əsas səhifə</Link>
             </li>
             <li className={styles.drawerListItem}>
-              <Link to="/cart" onClick={toggleMenu} className={styles.drawerLink}>Cart</Link>
+              <Link to="/cart" onClick={toggleMenu} className={styles.drawerLink}>Səbət</Link>
             </li>
             <li className={styles.drawerListItem}>
               <Link to="/media" onClick={toggleMenu} className={styles.drawerLink}>Media</Link>
             </li>
             <li className={styles.drawerListItem}>
-              <Link to="/inspiration" onClick={toggleMenu} className={styles.drawerLink}>Inspiration</Link>
+              <Link to="/inspiration" onClick={toggleMenu} className={styles.drawerLink}>Dizaynlar</Link>
             </li>
             <li className={styles.drawerListItem}>
-              <Link to="/about" onClick={toggleMenu} className={styles.drawerLink}>About</Link>
+              <Link to="/about" onClick={toggleMenu} className={styles.drawerLink}>Haqqımızda</Link>
             </li>
             <li className={styles.drawerListItem}>
               <Link to="/savedcontent" onClick={toggleMenu} className={styles.drawerLink}>Saved Content</Link>
             </li>
             <li className={styles.drawerListItem}>
-              <Link to="/membership" onClick={toggleMenu} className={styles.drawerLink}>Membership</Link>
+              <Link to="/membership" onClick={toggleMenu} className={styles.drawerLink}>Üzvlük</Link>
             </li>
           </ul>
         </div>

@@ -16,7 +16,7 @@ const DotComponent = ({ area, handleAreaClick, isSelected, handleMoreInfoClick }
           <img src={area.image} alt={area.title} className="w-100 h-auto mb-1" />
           <h5 className="mb-1">{area.title}</h5>
           <p className="mb-1">Price: {area.price}</p>
-          <button className="btn btn-dark" onClick={() => handleMoreInfoClick(area.id)}>More Info</button>
+          <button className="btn btn-dark" onClick={() => handleMoreInfoClick(area.id)}>Daha detaylı</button>
         </div>
       )}
     </div>

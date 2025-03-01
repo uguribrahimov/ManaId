@@ -15,6 +15,7 @@ import SignIn from './pages/SignIn/SignIn';
 import Inspiration from './pages/Inspiration/Inspiration';
 import InspirationDetails from './components/inspDetails/InspirationDetails';
 import NotFound from './pages/NotFound/NotFound';
+import ChatBot from './components/Chatbot/ChatBot';
 
 const App = () => {
   const [cart, setCart] = useState([]);
@@ -61,6 +62,8 @@ const App = () => {
           >
             <FooterBottom />
           </motion.div>
+
+          <ChatBot />
         </div>
       </Router>
     </Provider>
