@@ -13,7 +13,7 @@
         "title": "Klassik Sofa",
         "top": 70,
         "left": 11,
-        "image": "/assets/HomPage5-8.png",
+        "image": "/assets/HomPage5-8.jpg",
         "price": "$200",
         "link": "http://localhost:5173/cartDetails/7"
       },
@@ -22,7 +22,7 @@
         "title": "Kral Yataq",
         "top": 75,
         "left": 56,
-        "image": "/assets/HomPage5-3.png",
+        "image": "/assets/HomPage5-3.jpg",
         "price": "$350",
         "link": "http://localhost:5173/cartDetails/3"
       }
@@ -33,12 +33,12 @@
     "description": "Eviniz və ya ofisinizin istədiyiniz kimi olmasını istəyirsinizmi? Bunu gerçəkləşdirmək üçün çox sayda memarımız var.",
     "buttonText": "Daha çox şirkət",
     "images": [
-      "/assets/Image.homepage2.png",
-      "/assets/imgHomePage2.png",
-      "/assets/imgHomePage2-3.png",
-      "/assets/imgHomePage2-4.png",
-      "/assets/imgHomePage2-5.png",
-      "/assets/imgHomePage2-6.png"
+      "/assets/Image.homepage2.jpg",
+      "/assets/imgHomePage2.jpg",
+      "/assets/imgHomePage2-3.jpg",
+      "/assets/imgHomePage2-4.jpg",
+      "/assets/imgHomePage2-5.jpg",
+      "/assets/imgHomePage2-6.jpg"
     ],
     "cards": [
       {
